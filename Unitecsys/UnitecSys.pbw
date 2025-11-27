@@ -15,5 +15,5 @@ Save Format v3.0(19990112)
  8 "Seguridad\\seguridad.pbt";
  9 "Registro\\utc.pbt";
 @end;
-DefaultTarget "Programas Especiales\\especiales.pbt";
-DefaultRemoteTarget "Programas Especiales\\especiales.pbt";
+DefaultTarget "Registro\\utc.pbt";
+DefaultRemoteTarget "Registro\\utc.pbt";
