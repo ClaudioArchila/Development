@@ -1,0 +1,61 @@
+ ---------- Deploy: Deploy of p_utc_exe
+Creating executable file . . .
+Inspecting Application Dependencies. . .
+Building type C:\unitecsys\Registro\academ.pbl(w_cambio_carrera.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_alumno_seek.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_clases_cursar_carrera.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_cambio_orientacion.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_segunda_carrera.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(m_registro.srm) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_cambio_plan.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_notas_finales.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_seccion_seek.srw) . . .
+Building type C:\unitecsys\Registro\academ.pbl(w_cambio_carrera.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_alumno_seek.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_clases_cursar_carrera.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_cambio_orientacion.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_segunda_carrera.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(m_registro.srm) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_cambio_plan.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_notas_finales.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_seccion_seek.srw) . . .
+Building type C:\unitecsys\Registro\academ.pbl(w_cambio_carrera.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_alumno_seek.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_clases_cursar_carrera.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_cambio_orientacion.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_segunda_carrera.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(m_registro.srm) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_cambio_plan.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_notas_finales.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_seccion_seek.srw) . . .
+Inspecting Application Dependencies. . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_registro.srw) . . .
+Building type C:\unitecsys\Registro\academ.pbl(w_cambio_carrera.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_alumno_seek.srw) . . .
+Building type C:\unitecsys\Registro\matricula.pbl(w_hoja_confirmacion2.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_clases_cursar_carrera.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_cambio_orientacion.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(m_registro.srm) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_cambio_plan.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_notas_finales.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_param_calificaciones.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_seccion_seek.srw) . . .
+Building type C:\unitecsys\Registro\registro_nuevo.pbl(w_segunda_carrera.srw) . . .
+Regenerating C:\unitecsys\Registro\registro_nuevo.pbl(w_registro.srw) . . .
+Regenerating C:\unitecsys\Registro\academ.pbl(w_cambio_carrera.srw) . . .
+Regenerating C:\unitecsys\Registro\registro_nuevo.pbl(w_alumno_seek.srw) . . .
+Regenerating C:\unitecsys\Registro\matricula.pbl(w_hoja_confirmacion2.srw) . . .
+Regenerating C:\unitecsys\Registro\registro_nuevo.pbl(w_clases_cursar_carrera.srw) . . .
+Regenerating C:\unitecsys\Registro\registro_nuevo.pbl(w_cambio_orientacion.srw) . . .
+Regenerating C:\unitecsys\Registro\registro_nuevo.pbl(m_registro.srm) . . .
+Regenerating C:\unitecsys\Registro\registro_nuevo.pbl(w_cambio_plan.srw) . . .
+Regenerating C:\unitecsys\Registro\registro_nuevo.pbl(w_notas_finales.srw) . . .
+Regenerating C:\unitecsys\Registro\registro_nuevo.pbl(w_param_calificaciones.srw) . . .
+Regenerating C:\unitecsys\Registro\registro_nuevo.pbl(w_seccion_seek.srw) . . .
+Regenerating C:\unitecsys\Registro\registro_nuevo.pbl(w_segunda_carrera.srw) . . .
+academ.pbl(w_cambio_carrera).w_cambio_carrera.ue_actualizar.252: Error       C0084: Bad number of arguments for function: af_clases_cursar_sp_cuenta
+registro_nuevo.pbl(w_clases_cursar_carrera).w_clases_cursar_carrera.ue_postopen.40: Error       C0084: Bad number of arguments for function: af_clases_cursar_sp_cuenta
+registro_nuevo.pbl(w_cambio_orientacion).w_cambio_orientacion.ue_actualizar.52: Error       C0084: Bad number of arguments for function: af_clases_cursar_sp_cuenta
+registro_nuevo.pbl(w_cambio_plan).cb_aceptar.clicked.11: Error       C0084: Bad number of arguments for function: af_clases_cursar_sp_cuenta
+registro_nuevo.pbl(w_notas_finales).cb_guardar.clicked.50: Error       C0084: Bad number of arguments for function: af_clases_cursar_sp_cuenta
+ ---------- Finished Deploy of p_utc_exe

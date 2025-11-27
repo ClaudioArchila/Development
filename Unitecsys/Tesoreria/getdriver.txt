@@ -1,0 +1,19 @@
+String ls_fullstring=PrintGetPrinter()
+
+ String ls_name, ls_driver, ls_port, ls_temp
+
+ Long ll_placell_place=pos (ls_fullstring, "~t")
+
+ ls_name=left(ls_fullstring, ll_place -1)
+
+ ls_temp=mid(ls_fullstring, ll_place +1)
+
+ ll_place=pos (ls_temp, "~t")
+
+ ls_driver=left(ls_temp, ll_place -1)
+
+ ls_port=mid(ls_temp, ll_place +1)sle_1.text=ls_name
+
+ sle_2.text=ls_driver
+
+ sle_3.text=ls_port

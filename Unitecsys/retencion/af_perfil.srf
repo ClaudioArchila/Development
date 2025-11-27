@@ -1,0 +1,11 @@
+$PBExportHeader$af_perfil.srf
+global type af_perfil from function_object
+end type
+
+forward prototypes
+global function integer af_perfil ()
+end prototypes
+
+global function integer af_perfil ();return perfil
+end function
+

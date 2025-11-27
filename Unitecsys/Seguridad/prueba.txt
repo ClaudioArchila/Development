@@ -1,0 +1,5 @@
+compute_0001	campus	fecha	usuario	accion	descripcion_accion
+91	1	26/08/2014 10:39:56:5	carchila	Adición	usuario: carchila, aplicación: siec, nombre: carchila, perfil: 99, campus predeterminado: 1
+206	1	26/08/2014 10:42:12:236	carchila	Modificación	Descripción Ant.: d73b87f98b55c9a441159be4b36c06acab1897b0Descripción Nva.: 24fc57b90d6af22840e28e7d778f45c08bb22feb. Descripción Ant.: 99Descripción Nva.: 50. Descripción Ant.: carchilaDescripción Nva.: 3.
+255	1	26/08/2014 10:48:17:213	carchila	Modificación	Descripción Ant. : carchilaDescripción Nva. : Claudio. Contraseña Ant. : 24fc57b90d6af22840e28e7d778f45c08bb22febContraseña Nva. : 52e36686c472c4ab8da3257f739d609eec1fa82e. Perfil Ant. : 50Perfil Nvo. : 75. Campus Predeterminado Ant. : carchilaCampus Pred
+255	1	26/08/2014 11:01:24:423	carchila	Modificación	 Descripción Ant. : Claudio. Descripción Nva. : Claudio Archila. Se ha modificado la contraseña. Perfil Ant. : 75. Perfil Nvo. : 90.  Campus Predeterminado Ant. : Claudio. Campus Predeterminado Nvo. : 3.  Valor Multicampus Ant. : 0. Valor Multicampus Nva.

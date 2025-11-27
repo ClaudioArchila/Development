@@ -1,0 +1,201 @@
+$PBExportHeader$af_clases_cursar_x_cuenta.srf
+global type af_clases_cursar_x_cuenta from function_object
+end type
+
+forward prototypes
+global function integer af_clases_cursar_x_cuenta (string cuenta, estructura_plan plan, transaction sqlca_2)
+end prototypes
+
+global function integer af_clases_cursar_x_cuenta (string cuenta, estructura_plan plan, transaction sqlca_2);string s_campus, s_carrera
+string snivel, sorientacion
+string campus_actual
+string a1, a10, a9, a3, a6, a11, a12, a16, cual_esta, s_param, a7, a8, a2, a18, codigo
+string a4, a13
+int pos_ini, i, j, l_esta, linea, i_fila
+int n, k, trasladado, esta
+int  l_otros, contador_registros
+long l_uvs, l_clase, l_labs, i_uvs_eqv, i_uv_blanco
+long l_uvs_tot, l_clase_tot, l_labs_tot, i_uvs_eqv_tot, i_uv_blanco_tot
+long l_sumas, l_sumas_tot
+long l_req_uv, indice, l_uvs_ant
+datastore ds_clases
+string es_cfp
+string es_tv
+
+
+//  revision de requisitos de clases contra el plan
+ds_clases = create datastore
+ds_clases.dataobject = "d_para_calculos_cuenta"
+
+// declare stored procedure para limpiar tablas
+//DECLARE limpia_log PROCEDURE FOR limpia_log_tgu ;
+//DECLARE limpia_log_sps PROCEDURE FOR limpia_log_sps;
+
+delete from clases_cursar where cuenta = :cuenta;
+delete from para_calculos where cuenta = :cuenta;
+delete from para_calculos2 where s0 = :cuenta;
+
+// Recupera el campus donde se va a efectuar la operacion
+campus_actual = campus_trabajo
+
+i_uv_blanco = 0
+l_uvs = 0
+l_clase = 0 
+l_labs = 0
+l_sumas = 0 
+i_uvs_eqv = 0
+
+i_uv_blanco_tot = 0
+l_uvs_tot = 0
+l_clase_tot = 0 
+l_labs_tot = 0
+i_uvs_eqv_tot = 0		 
+l_sumas_tot = 0 
+
+// limpia el log
+//if s_campus = '2' then
+//	EXECUTE limpia_log_sps;
+//else		
+//	EXECUTE limpia_log;
+//end if				
+	
+// Recupera si el alumno ha estado inscrito en otro campus
+trasladado = 0
+select 1
+into :trasladado
+from traslado_campus
+where cuenta = :cuenta and 
+		campus_anterior <> :campus_actual;
+		
+af_agrupar_para_calculo2(cuenta,"APB,   ,CNF,CNU,",sqlca_2)
+
+// declare stored procedure que recupera las clases aprobadas por el alumno para campus actual
+declare contar procedure for sp_clases_aprobadas_20060106//sp_clases_aprobadas//_postgrado
+	@cuenta = :cuenta,
+	@flag = '1',
+	@uvs = :l_uvs out,
+	@clases = :l_clase out,
+	@labs = :l_labs out,
+	@sumas = :l_sumas out,
+	@uvs_eqv = :i_uvs_eqv out,
+	@i_uv_blanco = :i_uv_blanco out;
+
+// Campus actual
+execute contar;
+fetch contar into :l_uvs, :l_clase, :l_labs, :l_sumas, :i_uvs_eqv, :i_uv_blanco;			
+close contar;		
+
+if l_uvs > 0 then
+	indice = round( l_sumas / l_uvs, 0 )
+else
+	indice = 0
+end if
+
+// ----------------------------------------------------------------------------------
+// Actualiza alumnos otras estad academicas
+// ----------------------------------------------------------------------------------
+esta = 0
+
+select 1
+  into :esta
+  from alumnos_otras_estad_academicas
+ where cuenta = :cuenta;
+ 
+ 
+if ( esta = 0 ) or isnull( esta ) then
+	
+	if indice > 0 then
+		// -----------
+		INSERT INTO alumnos_otras_estad_academicas  
+				( cuenta,   
+				  clases_aprobadas,   
+				  labs_aprobados,   
+				  uv_equivalencia,   
+				  indice_graduacion,
+				  uv_aprobadas)  
+		  VALUES ( :cuenta,   
+					  :l_clase,   
+					  :l_labs ,   
+					  :i_uvs_eqv,   
+					  :indice,
+					  (:l_uvs + :i_uvs_eqv) 
+					);
+	end if
+else
+	if indice > 0 then
+		update alumnos_otras_estad_academicas
+			set clases_aprobadas = :l_clase,   
+				 labs_aprobados = :l_labs,   
+				 uv_equivalencia = :i_uvs_eqv,   
+				 indice_graduacion = :indice,
+				 uv_aprobadas = (:l_uvs + :i_uvs_eqv)
+		 where ( alumnos_otras_estad_academicas.cuenta = :cuenta );
+	end if
+end if
+// ----------------------------------------------------------------------------------
+
+
+// Agrega clases con excenciones, si las tiene
+af_ccx_cuenta_evaluar_excenciones( cuenta, plan.codigo_carrera,plan.anio_plan )
+
+l_uvs_tot += l_uvs
+l_clase_tot += l_clase
+l_labs_tot += l_labs
+i_uvs_eqv_tot += i_uvs_eqv
+i_uv_blanco_tot += i_uv_blanco
+l_sumas_tot += l_sumas
+
+select nivel, orientacion
+  into :snivel, :sorientacion
+  from alumnos
+where cuenta = :cuenta;
+
+//Recorre el arbol para calcular las clases a cursar
+l_uvs_ant = l_uvs_tot +  i_uvs_eqv_tot + i_uv_blanco_tot 
+
+af_clases_cursar_en_bpf2(plan,1,cuenta,snivel,sorientacion,l_uvs_ant,l_sumas_tot,1,"",sqlca_2,plan.clase[1].codigo)
+
+insert into bitacora_clases_cursar values (:cuenta,getdate());
+
+/*update clases_cursar
+   set procesos = 1
+where cuenta = :cuenta;*/
+
+
+// Recupera información si el alumno es TecVoc o CFP
+es_cfp = '0'
+es_tv = '0'
+
+select isnull(cfp,'0'), isnull(tecvoc,'0')
+  into :es_cfp, :es_tv
+  from alumnos
+ where cuenta = :cuenta
+;
+
+if isnull(es_cfp) then es_cfp = '0'
+if isnull(es_tv) then es_tv = '0'
+
+// Si no es CFP que borre las asignaturas marcadas como proyecto de graduación.
+if es_cfp = '0' then
+	delete from clases_cursar 
+	where cuenta = :cuenta and 
+	      codigo_materia in (select codigo_materia from materias where proyecto_graduacion = '1');
+end if
+
+if es_tv = '1' and ( plan.codigo_carrera <> 'TV07' or plan.codigo_carrera <> 'TV7A')  then
+	// Si es TecVoc ejecute el procedimiento almacenado
+	// declare stored procedure que recupera las clases aprobadas por el alumno para campus actual
+	declare TecVoc_Clases_Cursar procedure for sp_clases_cursar_tecvoc
+		@cuenta = :cuenta;
+	
+	// Campus actual
+	execute TecVoc_Clases_Cursar;
+	close TecVoc_Clases_Cursar;	
+end if
+
+//delete from para_calculos where cuenta = :cuenta;
+//delete from para_calculos2 where s0 = :cuenta;
+
+destroy ds_clases
+return 0 
+end function

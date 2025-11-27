@@ -1,0 +1,4131 @@
+%!PS-Adobe-3.0
+%%Title: 
+%%Creator: PScript5.dll Version 5.2.2
+%%CreationDate: 4/7/2006 15:14:37
+%%For: Claudio Archila
+%%BoundingBox: (atend)
+%%Pages: (atend)
+%%Orientation: Portrait
+%%PageOrder: Special
+%%DocumentNeededResources: (atend)
+%%DocumentSuppliedResources: (atend)
+%%DocumentData: Clean7Bit
+%%TargetDevice: (AFPL Ghostscript) (3010) 850
+%%LanguageLevel: 3
+%%EndComments
+
+%%BeginDefaults
+%%PageBoundingBox: 0 0 612 792
+%%ViewingOrientation: 1 0 0 1
+%%EndDefaults
+
+
+%%BeginProlog
+%%BeginResource: file Pscript_WinNT_ErrorHandler 5.0 0
+/currentpacking where{pop/oldpack currentpacking def/setpacking where{pop false
+setpacking}if}if/$brkpage 64 dict def $brkpage begin/prnt{dup type/stringtype
+ne{=string cvs}if dup length 6 mul/tx exch def/ty 10 def currentpoint/toy exch
+def/tox exch def 1 setgray newpath tox toy 2 sub moveto 0 ty rlineto tx 0
+rlineto 0 ty neg rlineto closepath fill tox toy moveto 0 setgray show}bind def
+/nl{currentpoint exch pop lmargin exch moveto 0 -10 rmoveto}def/=={/cp 0 def
+typeprint nl}def/typeprint{dup type exec}readonly def/lmargin 72 def/rmargin 72
+def/tprint{dup length cp add rmargin gt{nl/cp 0 def}if dup length cp add/cp
+exch def prnt}readonly def/cvsprint{=string cvs tprint( )tprint}readonly def
+/integertype{cvsprint}readonly def/realtype{cvsprint}readonly def/booleantype
+{cvsprint}readonly def/operatortype{(--)tprint =string cvs tprint(-- )tprint}
+readonly def/marktype{pop(-mark- )tprint}readonly def/dicttype{pop
+(-dictionary- )tprint}readonly def/nulltype{pop(-null- )tprint}readonly def
+/filetype{pop(-filestream- )tprint}readonly def/savetype{pop(-savelevel- )
+tprint}readonly def/fonttype{pop(-fontid- )tprint}readonly def/nametype{dup
+xcheck not{(/)tprint}if cvsprint}readonly def/stringtype{dup rcheck{(\()tprint
+tprint(\))tprint}{pop(-string- )tprint}ifelse}readonly def/arraytype{dup rcheck
+{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}forall(])
+tprint}ifelse}{pop(-array- )tprint}ifelse}readonly def/packedarraytype{dup
+rcheck{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}
+forall(])tprint}ifelse}{pop(-packedarray- )tprint}ifelse}readonly def/courier
+/Courier findfont 10 scalefont def end errordict/handleerror{systemdict begin
+$error begin $brkpage begin newerror{/newerror false store vmstatus pop pop 0
+ne{grestoreall}if errorname(VMerror)ne{showpage}if initgraphics courier setfont
+lmargin 720 moveto errorname(VMerror)eq{userdict/ehsave known{clear userdict
+/ehsave get restore 2 vmreclaim}if vmstatus exch pop exch pop PrtVMMsg}{
+(ERROR: )prnt errorname prnt nl(OFFENDING COMMAND: )prnt/command load prnt
+$error/ostack known{nl nl(STACK:)prnt nl nl $error/ostack get aload length{==}
+repeat}if}ifelse systemdict/showpage get exec(%%[ Error: )print errorname
+=print(; OffendingCommand: )print/command load =print( ]%%)= flush}if end end
+end}dup 0 systemdict put dup 4 $brkpage put bind readonly put/currentpacking
+where{pop/setpacking where{pop oldpack setpacking}if}if
+%%EndResource
+userdict /Pscript_WinNT_Incr 230 dict dup begin put
+%%BeginResource: file Pscript_FatalError 5.0 0
+userdict begin/FatalErrorIf{{initgraphics findfont 1 index 0 eq{exch pop}{dup
+length dict begin{1 index/FID ne{def}{pop pop}ifelse}forall/Encoding
+{ISOLatin1Encoding}stopped{StandardEncoding}if def currentdict end
+/ErrFont-Latin1 exch definefont}ifelse exch scalefont setfont counttomark 3 div
+cvi{moveto show}repeat showpage quit}{cleartomark}ifelse}bind def end
+%%EndResource
+userdict begin/PrtVMMsg{vmstatus exch sub exch pop gt{[
+(This job requires more memory than is available in this printer.)100 500
+(Try one or more of the following, and then print again:)100 485
+(For the output format, choose Optimize For Portability.)115 470
+(In the Device Settings page, make sure the Available PostScript Memory is accurate.)
+115 455(Reduce the number of fonts in the document.)115 440
+(Print the document in parts.)115 425 12/Times-Roman showpage
+(%%[ PrinterError: Low Printer VM ]%%)= true FatalErrorIf}if}bind def end
+version cvi 2016 ge{/VM?{pop}bind def}{/VM? userdict/PrtVMMsg get def}ifelse
+105000 VM?
+%%BeginResource: file Pscript_Win_Basic 5.0 0
+/d/def load def/,/load load d/~/exch , d/?/ifelse , d/!/pop , d/`/begin , d/^
+/index , d/@/dup , d/+/translate , d/$/roll , d/U/userdict , d/M/moveto , d/-
+/rlineto , d/&/currentdict , d/:/gsave , d/;/grestore , d/F/false , d/T/true ,
+d/N/newpath , d/E/end , d/Ac/arc , d/An/arcn , d/A/ashow , d/D/awidthshow , d/C
+/closepath , d/V/div , d/O/eofill , d/L/fill , d/I/lineto , d/-c/curveto , d/-M
+/rmoveto , d/+S/scale , d/Ji/setfont , d/Lc/setlinecap , d/Lj/setlinejoin , d
+/Lw/setlinewidth , d/Lm/setmiterlimit , d/sd/setdash , d/S/show , d/LH/showpage
+, d/K/stroke , d/W/widthshow , d/R/rotate , d/L2? false/languagelevel where{pop
+languagelevel 2 ge{pop true}if}if d L2?{/xS/xshow , d/yS/yshow , d/zS/xyshow ,
+d}if/b{bind d}bind d/bd{bind d}bind d/xd{~ d}bd/ld{, d}bd/bn/bind ld/lw/Lw ld
+/lc/Lc ld/lj/Lj ld/sg/setgray ld/ADO_mxRot null d/self & d/OrgMx matrix
+currentmatrix d/reinitialize{: OrgMx setmatrix[/TextInit/GraphInit/UtilsInit
+counttomark{@ where{self eq}{F}?{cvx exec}{!}?}repeat cleartomark ;}b
+/initialize{`{/Pscript_Win_Data where{!}{U/Pscript_Win_Data & put}?/ADO_mxRot ~
+d/TextInitialised? F d reinitialize E}{U/Pscript_Win_Data 230 dict @ ` put
+/ADO_mxRot ~ d/TextInitialised? F d reinitialize}?}b/terminate{!{& self eq
+{exit}{E}?}loop E}b/suspend/terminate , d/resume{` Pscript_Win_Data `}b U `
+/lucas 21690 d/featurebegin{countdictstack lucas[}b/featurecleanup{stopped
+{cleartomark @ lucas eq{! exit}if}loop countdictstack ~ sub @ 0 gt{{E}repeat}
+{!}?}b E/snap{transform 0.25 sub round 0.25 add ~ 0.25 sub round 0.25 add ~
+itransform}b/dsnap{dtransform round ~ round ~ idtransform}b/nonzero_round{@ 0.5
+ge{round}{@ -0.5 lt{round}{0 ge{1}{-1}?}?}?}b/nonzero_dsnap{dtransform
+nonzero_round ~ nonzero_round ~ idtransform}b U<04>cvn{}put/rr{1 ^ 0 - 0 ~ -
+neg 0 - C}b/irp{4 -2 $ + +S fx 4 2 $ M 1 ^ 0 - 0 ~ - neg 0 -}b/rp{4 2 $ M 1 ^ 0
+- 0 ~ - neg 0 -}b/solid{[]0 sd}b/g{@ not{U/DefIf_save save put}if U/DefIf_bool
+2 ^ put}b/DefIf_El{if U/DefIf_bool get not @{U/DefIf_save get restore}if}b/e
+{DefIf_El !}b/UDF{L2?{undefinefont}{!}?}b/UDR{L2?{undefineresource}{! !}?}b
+/freeVM{/Courier findfont[40 0 0 -40 0 0]makefont Ji 2 vmreclaim}b/hfRedefFont
+{findfont @ length dict `{1 ^/FID ne{d}{! !}?}forall & E @ ` ~{/CharStrings 1
+dict `/.notdef 0 d & E d}if/Encoding 256 array 0 1 255{1 ^ ~/.notdef put}for d
+E definefont !}bind d/hfMkCIDFont{/CIDFont findresource @ length 2 add dict `{1
+^ @/FID eq ~ @/XUID eq ~/UIDBase eq or or{! !}{d}?}forall/CDevProc ~ d/Metrics2
+16 dict d/CIDFontName 1 ^ d & E 1 ^ ~/CIDFont defineresource ![~]composefont !}
+bind d
+%%EndResource
+%%BeginResource: file Pscript_Win_Utils_L2 5.0 0
+/rf/rectfill , d/fx{1 1 dtransform @ 0 ge{1 sub 0.5}{1 add -0.5}? 3 -1 $ @ 0 ge
+{1 sub 0.5}{1 add -0.5}? 3 1 $ 4 1 $ idtransform 4 -2 $ idtransform}b/BZ{4 -2 $
+snap + +S fx rf}b/rs/rectstroke , d/rc/rectclip , d/UtilsInit{currentglobal{F
+setglobal}if}b/scol{! setcolor}b/colspA/DeviceGray d/colspABC/DeviceRGB d
+/colspRefresh{colspABC setcolorspace}b/SetColSpace{colspABC setcolorspace}b
+/resourcestatus where{!/ColorRendering/ProcSet resourcestatus{! ! T}{F}?}{F}?
+not{/ColorRendering<</GetHalftoneName{currenthalftone @/HalftoneName known{
+/HalftoneName get}{!/none}?}bn/GetPageDeviceName{currentpagedevice @
+/PageDeviceName known{/PageDeviceName get @ null eq{!/none}if}{!/none}?}bn
+/GetSubstituteCRD{!/DefaultColorRendering/ColorRendering resourcestatus{! !
+/DefaultColorRendering}{(DefaultColorRendering*){cvn exit}127 string
+/ColorRendering resourceforall}?}bn>>/defineresource where{!/ProcSet
+defineresource !}{! !}?}if/buildcrdname{/ColorRendering/ProcSet findresource `
+mark GetHalftoneName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)
+GetPageDeviceName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)5 ^ 0 5
+-1 1{^ length add}for string 6 1 $ 5 ^ 5{~ 1 ^ cvs length 1 ^ length 1 ^ sub
+getinterval}repeat ! cvn 3 1 $ ! ! E}b/definecolorrendering{~ buildcrdname ~
+/ColorRendering defineresource !}b/findcolorrendering where{!}{
+/findcolorrendering{buildcrdname @/ColorRendering resourcestatus{! ! T}{
+/ColorRendering/ProcSet findresource ` GetSubstituteCRD E F}?}b}?
+/selectcolorrendering{findcolorrendering !/ColorRendering findresource
+setcolorrendering}b/G2UBegin{findresource/FontInfo get/GlyphNames2Unicode get
+`}bind d/G2CCBegin{findresource/FontInfo get/GlyphNames2HostCode get `}bind d
+/G2UEnd{E}bind d/AddFontInfoBegin{/FontInfo 8 dict @ `}bind d/AddFontInfo{
+/GlyphNames2Unicode 16 dict d/GlyphNames2HostCode 16 dict d}bind d
+/AddFontInfoEnd{E d}bind d/T0AddCFFMtx2{/CIDFont findresource/Metrics2 get ` d
+E}bind d
+%%EndResource
+end
+%%EndProlog
+
+%%BeginSetup
+statusdict begin (%%[ ProductName: ) print product print ( ]%%)= flush end
+[ 1 0 0 1 0 0 ] false Pscript_WinNT_Incr dup /initialize get exec
+featurebegin{
+%%BeginNonPPDFeature: JobTimeout 0
+0 /languagelevel where{pop languagelevel}{1}ifelse 2 ge{1 dict dup/JobTimeout  4 -1 roll put setuserparams}{statusdict/setjobtimeout get exec}ifelse
+%%EndNonPPDFeature
+}featurecleanup
+
+featurebegin{
+%%BeginNonPPDFeature: WaitTimeout 300
+300 /languagelevel where{pop languagelevel}{1}ifelse 2 ge{1 dict dup/WaitTimeout 4 -1 roll put setuserparams}{statusdict/waittimeout 3 -1 roll put}ifelse
+%%EndNonPPDFeature
+}featurecleanup
+
+featurebegin{
+%%BeginFeature: *Resolution 600dpi
+<< /HWResolution [600 600] >> setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *PageSize Letter
+<< /PageSize [612 792] /ImagingBBox null >> setpagedevice
+%%EndFeature
+}featurecleanup
+1 setlinecap 1 setlinejoin
+/mysetup [ 72 600 V 0 0 -72 600 V 0 792 ] def 
+%%EndSetup
+
+userdict begin /ehsave save def end
+%%Page: 1 1
+%%PageBoundingBox: 0 0 612 792
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Win_GdiObject 5.0 0
+/SavedCTM null d/CTMsave{/SavedCTM SavedCTM currentmatrix d}b/CTMrestore
+{SavedCTM setmatrix}b/mp null d/ADO_mxRot null d/GDIHMatrix null d
+/GDIHPatternDict 22 dict d GDIHPatternDict `/PatternType 1 d/PaintType 2 d/Reps
+L2?{1}{5}? d/XStep 8 Reps mul d/YStep XStep d/BBox[0 0 XStep YStep]d/TilingType
+1 d/PaintProc{` 1 Lw[]0 sd PaintData , exec E}b/FGnd null d/BGnd null d
+/HS_Horizontal{horiz}b/HS_Vertical{vert}b/HS_FDiagonal{fdiag}b/HS_BDiagonal
+{biag}b/HS_Cross{horiz vert}b/HS_DiagCross{fdiag biag}b/MaxXYStep XStep YStep
+gt{XStep}{YStep}? d/horiz{Reps{0 4 M XStep 0 - 0 8 +}repeat 0 -8 Reps mul + K}b
+/vert{Reps{4 0 M 0 YStep - 8 0 +}repeat 0 -8 Reps mul + K}b/biag{Reps{0 0 M
+MaxXYStep @ - 0 YStep neg M MaxXYStep @ - 0 8 +}repeat 0 -8 Reps mul + 0 YStep
+M 8 8 - K}b/fdiag{Reps{0 0 M MaxXYStep @ neg - 0 YStep M MaxXYStep @ neg - 0 8
++}repeat 0 -8 Reps mul + MaxXYStep @ M 8 -8 - K}b E/makehatch{4 -2 $/yOrg ~ d
+/xOrg ~ d GDIHPatternDict/PaintData 3 -1 $ put CTMsave GDIHMatrix setmatrix
+GDIHPatternDict matrix xOrg yOrg + mp CTMrestore ~ U ~ 2 ^ put}b/h0{/h0
+/HS_Horizontal makehatch}b/h1{/h1/HS_Vertical makehatch}b/h2{/h2/HS_FDiagonal
+makehatch}b/h3{/h3/HS_BDiagonal makehatch}b/h4{/h4/HS_Cross makehatch}b/h5{/h5
+/HS_DiagCross makehatch}b/GDIBWPatternMx null d/pfprep{save 8 1 $
+/PatternOfTheDay 8 1 $ GDIBWPatternDict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/yExt
+~ d/Width ~ d/BGnd ~ d/FGnd ~ d/Height yExt RepsV mul d/mx[Width 0 0 Height 0
+0]d E build_pattern ~ !}b/pfbf{/fEOFill ~ d pfprep hbf fEOFill{O}{L}? restore}b
+/GraphInit{GDIHMatrix null eq{/SavedCTM matrix d : ADO_mxRot concat 0 0 snap +
+: 0.48 @ GDIHPatternDict ` YStep mul ~ XStep mul ~ nonzero_dsnap YStep V ~
+XStep V ~ E +S/GDIHMatrix matrix currentmatrix readonly d ; : 0.24 -0.24 +S
+GDIBWPatternDict ` Width Height E nonzero_dsnap +S/GDIBWPatternMx matrix
+currentmatrix readonly d ; ;}if}b
+%%EndResource
+%%BeginResource: file Pscript_Win_GdiObject_L3 5.0 0
+/GDIBWPatternDict 25 dict @ `/PatternType 1 d/PaintType 1 d/RepsV 1 d/RepsH 1 d
+/BBox[0 0 RepsH 1]d/TilingType 1 d/XStep 1 d/YStep 1 d/Height 8 RepsV mul d
+/Width 8 d/mx[Width 0 0 Height neg 0 Height]d/FGnd null d/BGnd null d
+/SetBGndFGnd{BGnd null ne{BGnd aload ! scol BBox aload ! 2 ^ sub ~ 3 ^ sub ~
+rf}if FGnd null ne{FGnd aload ! scol}if}b/PaintProc{` SetBGndFGnd RepsH{Width
+Height F mx PaintData imagemask Width 0 +}repeat E}b E d/mp/makepattern , d
+/build_pattern{CTMsave GDIBWPatternMx setmatrix/nupangle where{! nupangle -90
+eq{nupangle R}if}if GDIBWPatternDict @ ` Width Height ne{Width Height gt{Width
+Height V 1}{1 Height Width V}? +S}if xOrg yOrg E matrix + mp CTMrestore}b/hbf
+{setpattern}b/hf{:/fEOFill ~ d ~ ! setpattern fEOFill{O}{L}? ;}b/pbf{: !
+/fEOFill ~ d GDIBWPatternDict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/OutputBPP ~ d
+/Height ~ d/Width ~ d/PaintType 1 d/PatternType 1 d/TilingType 1 d/BBox[0 0
+Width Height]d/XStep Width d/YStep Height d/mx xOrg yOrg matrix + d 20 dict @ `
+/ImageType 1 d/Width Width d/Height Height d/ImageMatrix[1 0 0 1 0 0]d
+/BitsPerComponent 8 d OutputBPP 24 eq{/Decode[0 1 0 1 0 1]d}{OutputBPP 8 eq{
+/Decode[0 1]d}{/Decode[0 1 0 1 0 1 0 1]d}?}?/DataSource{PaintData}d E/ImageDict
+~ d/PaintProc{` ImageDict image E}b & mx makepattern setpattern E fEOFill{O}{L}
+? ;}b/mask_pbf{:/fEOFill ~ d 20 dict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/Height ~
+d/Width ~ d/PatternType 1 d/PaintType 2 d/TilingType 1 d/BBox[0 0 Width Height]
+d/XStep Width d/YStep Height d/mx xOrg yOrg matrix + d/PaintProc{` Width Height
+T 1 1 dtransform abs ~ abs ~ 0 0 3 -1 $ 0 0 6 array astore{PaintData}imagemask
+E}b & mx makepattern setpattern E fEOFill{O}{L}? ;}b/grf4{4 dict `/ShadingType
+4 d/DataSource ~ d/ColorSpace ~ d & E shfill}b
+%%EndResource
+end reinitialize
+: N 1881 175 1325 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Text 5.0 0
+/TextInit{TextInitialised? not{/Pscript_Windows_Font & d/TextInitialised? T d
+/fM[1 0 0 1 0 0]d/mFM matrix d/iMat[1 0 0.212557 1 0 0]d}if}b/copyfont{1 ^
+length add dict `{1 ^/FID ne{d}{! !}?}forall & E}b/EncodeDict 11 dict d/bullets
+{{/bullet}repeat}b/rF{3 copyfont @ ` ~ EncodeDict ~ get/Encoding ~ 3 ^/0 eq{&
+/CharStrings known{CharStrings/Eth known not{! EncodeDict/ANSIEncodingOld get}
+if}if}if d E}b/mF{@ 7 1 $ findfont ~{@/Encoding get @ StandardEncoding eq{! T}{
+{ISOLatin1Encoding}stopped{! F}{eq}?{T}{@ ` T 32 1 127{Encoding 1 ^ get
+StandardEncoding 3 -1 $ get eq and}for E}?}?}{F}?{1 ^ ~ rF}{0 copyfont}? 6 -2 $
+! ! ~ !/pd_charset @ where{~ get 128 eq{@ FDV 2 copy get @ length array copy
+put pd_CoverFCRange}if}{!}? 2 ^ ~ definefont fM 5 4 -1 $ put fM 4 0 put fM
+makefont Pscript_Windows_Font 3 1 $ put}b/sLT{: Lw -M currentpoint snap M 0 - 0
+Lc K ;}b/xUP null d/yUP null d/uW null d/xSP null d/ySP null d/sW null d/sSU{N
+/uW ~ d/yUP ~ d/xUP ~ d}b/sU{xUP yUP uW sLT}b/sST{N/sW ~ d/ySP ~ d/xSP ~ d}b/sT
+{xSP ySP sW sLT}b/sR{: + R 0 0 M}b/sRxy{: matrix astore concat 0 0 M}b/eR/; , d
+/AddOrigFP{{&/FontInfo known{&/FontInfo get length 6 add}{6}? dict `
+/WinPitchAndFamily ~ d/WinCharSet ~ d/OrigFontType ~ d/OrigFontStyle ~ d
+/OrigFontName ~ d & E/FontInfo ~ d}{! ! ! ! !}?}b/mFS{makefont
+Pscript_Windows_Font 3 1 $ put}b/mF42D{0 copyfont `/FontName ~ d 2 copy ~ sub 1
+add dict `/.notdef 0 d 2 copy 1 ~{@ 3 ^ sub Encoding ~ get ~ d}for & E
+/CharStrings ~ d ! ! & @ E/FontName get ~ definefont}b/mF42{15 dict ` @ 4 1 $
+FontName ~ d/FontType 0 d/FMapType 2 d/FontMatrix[1 0 0 1 0 0]d 1 ^ 254 add 255
+idiv @ array/Encoding ~ d 0 1 3 -1 $ 1 sub{@ Encoding 3 1 $ put}for/FDepVector
+Encoding length array d/CharStrings 2 dict `/.notdef 0 d & E d 0 1 Encoding
+length 1 sub{@ @ 10 lt{! FontName length 1 add string}{100 lt{FontName length 2
+add string}{FontName length 3 add string}?}? @ 0 FontName @ length string cvs
+putinterval @ 3 -1 $ @ 4 1 $ 3 string cvs FontName length ~ putinterval cvn 1 ^
+256 mul @ 255 add 3 -1 $ 4 ^ findfont mF42D FDepVector 3 1 $ put}for & @ E
+/FontName get ~ definefont ! ! ! mF}b/mF_OTF_V{~ ! ~ ! 4 -1 $ ! findfont 2 ^ ~
+definefont fM @ @ 4 6 -1 $ neg put 5 0 put 90 matrix R matrix concatmatrix
+makefont Pscript_Windows_Font 3 1 $ put}b/mF_TTF_V{3{~ !}repeat 3 -1 $ !
+findfont 1 ^ ~ definefont Pscript_Windows_Font 3 1 $ put}b/UmF{L2?
+{Pscript_Windows_Font ~ undef}{!}?}b/UmF42{@ findfont/FDepVector get{/FontName
+get undefinefont}forall undefinefont}b
+%%EndResource
+end reinitialize
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Encoding256 5.0 0
+/CharCol256Encoding[/.notdef/breve/caron/dotaccent/dotlessi/fi/fl/fraction
+/hungarumlaut/Lslash/lslash/minus/ogonek/ring/Zcaron/zcaron/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle/parenleft/parenright/asterisk/plus/comma
+/hyphen/period/slash/zero/one/two/three/four/five/six/seven/eight/nine/colon
+/semicolon/less/equal/greater/question/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R/S
+/T/U/V/W/X/Y/Z/bracketleft/backslash/bracketright/asciicircum/underscore/grave
+/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/braceleft/bar/braceright
+/asciitilde/.notdef/Euro/.notdef/quotesinglbase/florin/quotedblbase/ellipsis
+/dagger/daggerdbl/circumflex/perthousand/Scaron/guilsinglleft/OE/.notdef
+/.notdef/.notdef/.notdef/quoteleft/quoteright/quotedblleft/quotedblright/bullet
+/endash/emdash/tilde/trademark/scaron/guilsinglright/oe/.notdef/.notdef
+/Ydieresis/.notdef/exclamdown/cent/sterling/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft/logicalnot/.notdef/registered
+/macron/degree/plusminus/twosuperior/threesuperior/acute/mu/paragraph
+/periodcentered/cedilla/onesuperior/ordmasculine/guillemotright/onequarter
+/onehalf/threequarters/questiondown/Agrave/Aacute/Acircumflex/Atilde/Adieresis
+/Aring/AE/Ccedilla/Egrave/Eacute/Ecircumflex/Edieresis/Igrave/Iacute
+/Icircumflex/Idieresis/Eth/Ntilde/Ograve/Oacute/Ocircumflex/Otilde/Odieresis
+/multiply/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde/adieresis/aring/ae/ccedilla/egrave/eacute
+/ecircumflex/edieresis/igrave/iacute/icircumflex/idieresis/eth/ntilde/ograve
+/oacute/ocircumflex/otilde/odieresis/divide/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis]def EncodeDict/256 CharCol256Encoding put
+%%EndResource
+end reinitialize
+
+%%IncludeResource: font Helvetica-Bold
+F /F0 0 /256 T /Helvetica-Bold mF 
+/F0S75 F0 [117 0 0 -117 0 0 ] mFS
+F0S75 Ji 
+1881 287 M (Table Definition Report)[71 65 71 33 65 33 84 65 39 33 71 33 39 33 71 71 33 84 65 71 71 46  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 3887 206 500 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 3887 209 500 112 rc 
+%%IncludeResource: font Helvetica
+F /F1 0 /256 T /Helvetica mF 
+/F1S64 F1 [100 0 0 -100 0 0 ] mFS
+F1S64 Ji 
+3887 299 M (07/04/2006)[56 56 28 56 56 28 56 56 56  0]xS 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 600 400 487 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol /F0S64 F0 [100 0 0 -100 0 0 ] mFS
+F0S64 Ji 
+600 498 M (Database:)[72 56 33 56 61 56 56 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 544 637 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 450 642 M (Table Owner:)[61 56 61 28 56 28 78 80 61 56 39  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 487 700 600 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 487 798 M (Table Name:)[61 56 61 28 56 28 72 56 89 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 544 2068 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 1219 642 M (dbo)[61 61  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 694 2494 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1219 806 M (alumnos)[65 33 71 104 71 71  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 400 1675 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+1219 498 M (unitec)[61 61 28 33 56  0]xS 
+562 1019 M (Comments:)[72 61 89 89 56 61 33 56  0]xS 
+1 Lj 1 Lc 19 Lw solid : 276 1436 4125 23 rc N 287 1447 M 4749 1447 I K 
+; /F1S53 F1 [83 0 0 -83 0 0 ] mFS
+F1S53 Ji 
+1237 1644 M (1)S 
+F0S75 Ji 
+2437 1656 M (cuenta)[65 71 65 71 39  0]xS 
+/F0S53 F0 [83 0 0 -83 0 0 ] mFS
+F0S53 Ji 
+424 1645 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 1775 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 1645 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 2028 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 2029 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 2172 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 2171 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2316 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 2315 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2459 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 2458 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2594 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2602 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2719 M (Header:)[60 46 46 51 46 32  0]xS 
+424 2845 M (Label:)[51 46 51 46 23  0]xS 
+430 2969 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 3103 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 3102 M (0)S 
+2201 3102 M (0.00)[46 23 46  0]xS 
+2387 3102 M (in.)[18 46  0]xS 
+3082 3102 M (0.00)[46 23 46  0]xS 
+3280 3102 M (in.)[18 46  0]xS 
+3269 2028 M (10)[46  0]xS 
+F0S53 Ji 
+2737 3103 M (Width:)[79 23 51 28 51  0]xS 
+1812 3103 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 2029 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2323 2028 M (Not Null)[60 46 23 23 60 46 18  0]xS 
+F0S53 Ji 
+1812 2029 M (Null:)[60 51 23 23  0]xS 
+: 276 3229 4125 23 rc N 287 3240 M 4749 3240 I K 
+; F1S53 Ji 
+1237 3437 M (2)S 
+F0S75 Ji 
+2437 3449 M (codigo_ciudad)[65 71 71 33 71 71 65 65 33 71 71 65  0]xS 
+F0S53 Ji 
+424 3438 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 3568 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 3438 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 3821 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 3822 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 3965 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 3964 M ('999')[16 46 46 46  0]xS 
+F0S53 Ji 
+424 4109 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 4108 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 4252 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 4251 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 4387 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 4395 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 4512 M (Header:)[60 46 46 51 46 32  0]xS 
+424 4638 M (Label:)[51 46 51 46 23  0]xS 
+430 4762 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 4896 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 4895 M (0)S 
+2201 4895 M (0.00)[46 23 46  0]xS 
+2387 4895 M (in.)[18 46  0]xS 
+3082 4895 M (0.00)[46 23 46  0]xS 
+3280 4895 M (in.)[18 46  0]xS 
+3315 3821 M (3)S 
+F0S53 Ji 
+2737 4896 M (Width:)[79 23 51 28 51  0]xS 
+1812 4896 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 3822 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2323 3821 M (Not Null)[60 46 23 23 60 46 18  0]xS 
+F0S53 Ji 
+1812 3822 M (Null:)[60 51 23 23  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 200 694 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F1S64 Ji 
+450 293 M (Page 1 of 22)[67 56 55 56 28 56 28 56 29 28 56  0]xS 
+LH
+(%%[Page: 1]%%) = 
+%%PageTrailer
+
+%%Page: 2 2
+%%PageBoundingBox: 0 0 612 792
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+: N 1881 175 1325 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1881 287 M (Table Definition Report)[71 65 71 33 65 33 84 65 39 33 71 33 39 33 71 71 33 84 65 71 71 46  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 3887 206 500 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 3887 209 500 112 rc F1S64 Ji 
+3887 299 M (07/04/2006)[56 56 28 56 56 28 56 56 56  0]xS 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 600 400 487 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+600 498 M (Database:)[72 56 33 56 61 56 56 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 544 637 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 450 642 M (Table Owner:)[61 56 61 28 56 28 78 80 61 56 39  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 487 700 600 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 487 798 M (Table Name:)[61 56 61 28 56 28 72 56 89 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 544 2068 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 1219 642 M (dbo)[61 61  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 694 2494 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1219 806 M (alumnos)[65 33 71 104 71 71  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 400 1675 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+1219 498 M (unitec)[61 61 28 33 56  0]xS 
+1 Lj 1 Lc 19 Lw : 276 885 4125 23 rc N 287 896 M 4749 896 I K 
+; F1S53 Ji 
+1237 1093 M (3)S 
+F0S75 Ji 
+2437 1105 M (codigo_depto)[65 71 71 33 71 71 65 71 65 71 39  0]xS 
+F0S53 Ji 
+424 1094 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 1224 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 1094 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 1477 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 1478 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 1621 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 1620 M ('99')[16 46 46  0]xS 
+F0S53 Ji 
+424 1765 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 1764 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1908 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 1907 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2043 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2051 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2168 M (Header:)[60 46 46 51 46 32  0]xS 
+424 2294 M (Label:)[51 46 51 46 23  0]xS 
+430 2418 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 2552 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2551 M (0)S 
+2201 2551 M (0.00)[46 23 46  0]xS 
+2387 2551 M (in.)[18 46  0]xS 
+3082 2551 M (0.00)[46 23 46  0]xS 
+3280 2551 M (in.)[18 46  0]xS 
+3315 1477 M (2)S 
+F0S53 Ji 
+2737 2552 M (Width:)[79 23 51 28 51  0]xS 
+1812 2552 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 1478 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2323 1477 M (Not Null)[60 46 23 23 60 46 18  0]xS 
+F0S53 Ji 
+1812 1478 M (Null:)[60 51 23 23  0]xS 
+: 276 2678 4125 23 rc N 287 2689 M 4749 2689 I K 
+; F1S53 Ji 
+1237 2886 M (4)S 
+F0S75 Ji 
+2437 2898 M (codigo_pais)[65 71 71 33 71 71 65 71 65 33  0]xS 
+F0S53 Ji 
+424 2887 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 3017 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 2887 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 3270 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 3271 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 3414 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 3413 M ('999')[16 46 46 46  0]xS 
+F0S53 Ji 
+424 3558 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 3557 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3701 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 3700 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3836 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 3844 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3961 M (Header:)[60 46 46 51 46 32  0]xS 
+424 4087 M (Label:)[51 46 51 46 23  0]xS 
+430 4211 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 4345 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 4344 M (0)S 
+2201 4344 M (0.00)[46 23 46  0]xS 
+2387 4344 M (in.)[18 46  0]xS 
+3082 4344 M (0.00)[46 23 46  0]xS 
+3280 4344 M (in.)[18 46  0]xS 
+3315 3270 M (3)S 
+F0S53 Ji 
+2737 4345 M (Width:)[79 23 51 28 51  0]xS 
+1812 4345 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 3271 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2323 3270 M (Not Null)[60 46 23 23 60 46 18  0]xS 
+F0S53 Ji 
+1812 3271 M (Null:)[60 51 23 23  0]xS 
+: 276 4471 4125 23 rc N 287 4482 M 4749 4482 I K 
+; F1S53 Ji 
+1237 4679 M (5)S 
+F0S75 Ji 
+2437 4691 M (codigo_municipio)[65 71 71 33 71 71 65 104 71 71 33 65 33 71 33  0]xS 
+F0S53 Ji 
+424 4680 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 4810 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 4680 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 5063 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 5064 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 5207 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 5206 M ('9999')[16 46 46 46 46  0]xS 
+F0S53 Ji 
+424 5351 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 5350 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5494 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 5493 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5629 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 5637 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5754 M (Header:)[60 46 46 51 46 32  0]xS 
+424 5880 M (Label:)[51 46 51 46 23  0]xS 
+430 6004 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 6138 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 6137 M (0)S 
+2201 6137 M (0.00)[46 23 46  0]xS 
+2387 6137 M (in.)[18 46  0]xS 
+3082 6137 M (0.00)[46 23 46  0]xS 
+3280 6137 M (in.)[18 46  0]xS 
+3315 5063 M (4)S 
+F0S53 Ji 
+2737 6138 M (Width:)[79 23 51 28 51  0]xS 
+1812 6138 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 5064 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2323 5063 M (Not Null)[60 46 23 23 60 46 18  0]xS 
+F0S53 Ji 
+1812 5064 M (Null:)[60 51 23 23  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 200 694 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F1S64 Ji 
+450 293 M (Page 2 of 22)[67 56 55 56 28 56 28 56 29 28 56  0]xS 
+LH
+(%%[Page: 2]%%) = 
+%%PageTrailer
+
+%%Page: 3 3
+%%PageBoundingBox: 0 0 612 792
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+: N 1881 175 1325 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1881 287 M (Table Definition Report)[71 65 71 33 65 33 84 65 39 33 71 33 39 33 71 71 33 84 65 71 71 46  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 3887 206 500 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 3887 209 500 112 rc F1S64 Ji 
+3887 299 M (07/04/2006)[56 56 28 56 56 28 56 56 56  0]xS 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 600 400 487 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+600 498 M (Database:)[72 56 33 56 61 56 56 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 544 637 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 450 642 M (Table Owner:)[61 56 61 28 56 28 78 80 61 56 39  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 487 700 600 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 487 798 M (Table Name:)[61 56 61 28 56 28 72 56 89 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 544 2068 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 1219 642 M (dbo)[61 61  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 694 2494 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1219 806 M (alumnos)[65 33 71 104 71 71  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 400 1675 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+1219 498 M (unitec)[61 61 28 33 56  0]xS 
+1 Lj 1 Lc 19 Lw : 276 885 4125 23 rc N 287 896 M 4749 896 I K 
+; F1S53 Ji 
+1237 1093 M (6)S 
+F0S75 Ji 
+2437 1105 M (nombre)[71 71 104 71 46  0]xS 
+F0S53 Ji 
+424 1094 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 1224 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 1094 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 1477 M (varchar)[41 46 28 42 46 46  0]xS 
+F0S53 Ji 
+424 1478 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 1621 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 1620 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1765 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 1764 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1908 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 1907 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2043 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2051 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2168 M (Header:)[60 46 46 51 46 32  0]xS 
+424 2294 M (Label:)[51 46 51 46 23  0]xS 
+430 2418 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 2552 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2551 M (0)S 
+2201 2551 M (0.00)[46 23 46  0]xS 
+2387 2551 M (in.)[18 46  0]xS 
+3082 2551 M (0.00)[46 23 46  0]xS 
+3280 2551 M (in.)[18 46  0]xS 
+3269 1477 M (70)[46  0]xS 
+F0S53 Ji 
+2737 2552 M (Width:)[79 23 51 28 51  0]xS 
+1812 2552 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 1478 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2323 1477 M (Not Null)[60 46 23 23 60 46 18  0]xS 
+F0S53 Ji 
+1812 1478 M (Null:)[60 51 23 23  0]xS 
+: 276 2678 4125 23 rc N 287 2689 M 4749 2689 I K 
+; F1S53 Ji 
+1237 2886 M (7)S 
+F0S75 Ji 
+2437 2898 M (fecha_ing)[39 65 65 71 65 65 33 71  0]xS 
+F0S53 Ji 
+424 2887 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 3017 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 2887 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 3270 M (datetime)[46 46 23 46 23 18 71  0]xS 
+F0S53 Ji 
+424 3271 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 3414 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 3413 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3558 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 3557 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3701 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 3700 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3836 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 3844 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3961 M (Header:)[60 46 46 51 46 32  0]xS 
+424 4087 M (Label:)[51 46 51 46 23  0]xS 
+430 4211 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 4345 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 4344 M (0)S 
+2201 4344 M (0.00)[46 23 46  0]xS 
+2387 4344 M (in.)[18 46  0]xS 
+3082 4344 M (0.00)[46 23 46  0]xS 
+3280 4344 M (in.)[18 46  0]xS 
+F0S53 Ji 
+2737 4345 M (Width:)[79 23 51 28 51  0]xS 
+1812 4345 M (Height:)[60 46 23 51 51 28  0]xS 
+F1S53 Ji 
+2323 3270 M (Not Null)[60 46 23 23 60 46 18  0]xS 
+F0S53 Ji 
+1812 3271 M (Null:)[60 51 23 23  0]xS 
+: 276 4471 4125 23 rc N 287 4482 M 4749 4482 I K 
+; F1S53 Ji 
+1237 4679 M (8)S 
+F0S75 Ji 
+2437 4691 M (modalidad)[104 71 71 65 33 33 71 65  0]xS 
+F0S53 Ji 
+424 4680 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 4810 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 4680 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 5063 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 5064 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 5207 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 5206 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5351 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 5350 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5494 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 5493 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5629 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 5637 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5754 M (Header:)[60 46 46 51 46 32  0]xS 
+424 5880 M (Label:)[51 46 51 46 23  0]xS 
+430 6004 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 6138 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 6137 M (0)S 
+2201 6137 M (0.00)[46 23 46  0]xS 
+2387 6137 M (in.)[18 46  0]xS 
+3082 6137 M (0.00)[46 23 46  0]xS 
+3280 6137 M (in.)[18 46  0]xS 
+3315 5063 M (1)S 
+F0S53 Ji 
+2737 6138 M (Width:)[79 23 51 28 51  0]xS 
+1812 6138 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 5064 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2323 5063 M (Not Null)[60 46 23 23 60 46 18  0]xS 
+F0S53 Ji 
+1812 5064 M (Null:)[60 51 23 23  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 200 694 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F1S64 Ji 
+450 293 M (Page 3 of 22)[67 56 55 56 28 56 28 56 29 28 56  0]xS 
+LH
+(%%[Page: 3]%%) = 
+%%PageTrailer
+
+%%Page: 4 4
+%%PageBoundingBox: 0 0 612 792
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+: N 1881 175 1325 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1881 287 M (Table Definition Report)[71 65 71 33 65 33 84 65 39 33 71 33 39 33 71 71 33 84 65 71 71 46  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 3887 206 500 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 3887 209 500 112 rc F1S64 Ji 
+3887 299 M (07/04/2006)[56 56 28 56 56 28 56 56 56  0]xS 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 600 400 487 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+600 498 M (Database:)[72 56 33 56 61 56 56 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 544 637 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 450 642 M (Table Owner:)[61 56 61 28 56 28 78 80 61 56 39  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 487 700 600 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 487 798 M (Table Name:)[61 56 61 28 56 28 72 56 89 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 544 2068 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 1219 642 M (dbo)[61 61  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 694 2494 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1219 806 M (alumnos)[65 33 71 104 71 71  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 400 1675 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+1219 498 M (unitec)[61 61 28 33 56  0]xS 
+1 Lj 1 Lc 19 Lw : 276 885 4125 23 rc N 287 896 M 4749 896 I K 
+; F1S53 Ji 
+1237 1093 M (9)S 
+F0S75 Ji 
+2437 1105 M (nivel)[71 33 64 65  0]xS 
+F0S53 Ji 
+424 1094 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 1224 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 1094 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 1477 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 1478 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 1621 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 1620 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1765 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 1764 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1908 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 1907 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2043 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2051 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2168 M (Header:)[60 46 46 51 46 32  0]xS 
+424 2294 M (Label:)[51 46 51 46 23  0]xS 
+430 2418 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 2552 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2551 M (0)S 
+2201 2551 M (0.00)[46 23 46  0]xS 
+2387 2551 M (in.)[18 46  0]xS 
+3082 2551 M (0.00)[46 23 46  0]xS 
+3280 2551 M (in.)[18 46  0]xS 
+3315 1477 M (1)S 
+F0S53 Ji 
+2737 2552 M (Width:)[79 23 51 28 51  0]xS 
+1812 2552 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 1478 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2323 1477 M (Not Null)[60 46 23 23 60 46 18  0]xS 
+F0S53 Ji 
+1812 1478 M (Null:)[60 51 23 23  0]xS 
+: 276 2678 4125 23 rc N 287 2689 M 4749 2689 I K 
+; F1S53 Ji 
+1237 2886 M (10)[46  0]xS 
+F0S75 Ji 
+2437 2898 M (carrera)[65 65 46 46 65 46  0]xS 
+F0S53 Ji 
+424 2887 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 3017 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 2887 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 3270 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 3271 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 3414 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 3413 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3558 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 3557 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3701 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 3700 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3836 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 3844 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3961 M (Header:)[60 46 46 51 46 32  0]xS 
+424 4087 M (Label:)[51 46 51 46 23  0]xS 
+430 4211 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 4345 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 4344 M (0)S 
+2201 4344 M (0.00)[46 23 46  0]xS 
+2387 4344 M (in.)[18 46  0]xS 
+3082 4344 M (0.00)[46 23 46  0]xS 
+3280 4344 M (in.)[18 46  0]xS 
+3315 3270 M (4)S 
+F0S53 Ji 
+2737 4345 M (Width:)[79 23 51 28 51  0]xS 
+1812 4345 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 3271 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2323 3270 M (Not Null)[60 46 23 23 60 46 18  0]xS 
+F0S53 Ji 
+1812 3271 M (Null:)[60 51 23 23  0]xS 
+: 276 4471 4125 23 rc N 287 4482 M 4749 4482 I K 
+; F1S53 Ji 
+1237 4679 M (11)[46  0]xS 
+F0S75 Ji 
+2437 4691 M (fecha_nac)[39 65 65 71 65 65 71 65  0]xS 
+F0S53 Ji 
+424 4680 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 4810 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 4680 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 5063 M (datetime)[46 46 23 46 23 18 71  0]xS 
+F0S53 Ji 
+424 5064 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 5207 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 5206 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5351 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 5350 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5494 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 5493 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5629 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 5637 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5754 M (Header:)[60 46 46 51 46 32  0]xS 
+424 5880 M (Label:)[51 46 51 46 23  0]xS 
+430 6004 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 6138 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 6137 M (0)S 
+2201 6137 M (0.00)[46 23 46  0]xS 
+2387 6137 M (in.)[18 46  0]xS 
+3082 6137 M (0.00)[46 23 46  0]xS 
+3280 6137 M (in.)[18 46  0]xS 
+F0S53 Ji 
+2737 6138 M (Width:)[79 23 51 28 51  0]xS 
+1812 6138 M (Height:)[60 46 23 51 51 28  0]xS 
+F1S53 Ji 
+2122 5063 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 5064 M (Null:)[60 51 23 23  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 200 694 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F1S64 Ji 
+450 293 M (Page 4 of 22)[67 56 55 56 28 56 28 56 29 28 56  0]xS 
+LH
+(%%[Page: 4]%%) = 
+%%PageTrailer
+
+%%Page: 5 5
+%%PageBoundingBox: 0 0 612 792
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+: N 1881 175 1325 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1881 287 M (Table Definition Report)[71 65 71 33 65 33 84 65 39 33 71 33 39 33 71 71 33 84 65 71 71 46  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 3887 206 500 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 3887 209 500 112 rc F1S64 Ji 
+3887 299 M (07/04/2006)[56 56 28 56 56 28 56 56 56  0]xS 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 600 400 487 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+600 498 M (Database:)[72 56 33 56 61 56 56 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 544 637 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 450 642 M (Table Owner:)[61 56 61 28 56 28 78 80 61 56 39  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 487 700 600 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 487 798 M (Table Name:)[61 56 61 28 56 28 72 56 89 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 544 2068 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 1219 642 M (dbo)[61 61  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 694 2494 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1219 806 M (alumnos)[65 33 71 104 71 71  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 400 1675 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+1219 498 M (unitec)[61 61 28 33 56  0]xS 
+1 Lj 1 Lc 19 Lw : 276 885 4125 23 rc N 287 896 M 4749 896 I K 
+; F1S53 Ji 
+1237 1093 M (12)[46  0]xS 
+F0S75 Ji 
+2437 1105 M (nacionalidad)[71 65 65 33 71 71 65 33 33 71 65  0]xS 
+F0S53 Ji 
+424 1094 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 1224 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 1094 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 1477 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 1478 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 1621 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 1620 M ('999')[16 46 46 46  0]xS 
+F0S53 Ji 
+424 1765 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 1764 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1908 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 1907 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2043 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2051 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2168 M (Header:)[60 46 46 51 46 32  0]xS 
+424 2294 M (Label:)[51 46 51 46 23  0]xS 
+430 2418 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 2552 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2551 M (0)S 
+2201 2551 M (0.00)[46 23 46  0]xS 
+2387 2551 M (in.)[18 46  0]xS 
+3082 2551 M (0.00)[46 23 46  0]xS 
+3280 2551 M (in.)[18 46  0]xS 
+3315 1477 M (3)S 
+F0S53 Ji 
+2737 2552 M (Width:)[79 23 51 28 51  0]xS 
+1812 2552 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 1478 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2323 1477 M (Not Null)[60 46 23 23 60 46 18  0]xS 
+F0S53 Ji 
+1812 1478 M (Null:)[60 51 23 23  0]xS 
+: 276 2678 4125 23 rc N 287 2689 M 4749 2689 I K 
+; F1S53 Ji 
+1237 2886 M (13)[46  0]xS 
+F0S75 Ji 
+2437 2898 M (sexo)[65 65 65  0]xS 
+F0S53 Ji 
+424 2887 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 3017 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 2887 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 3270 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 3271 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 3414 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 3413 M ('1')[16 46  0]xS 
+F0S53 Ji 
+424 3558 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 3557 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3701 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 3700 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3836 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 3844 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3961 M (Header:)[60 46 46 51 46 32  0]xS 
+424 4087 M (Label:)[51 46 51 46 23  0]xS 
+430 4211 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 4345 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 4344 M (0)S 
+2201 4344 M (0.00)[46 23 46  0]xS 
+2387 4344 M (in.)[18 46  0]xS 
+3082 4344 M (0.00)[46 23 46  0]xS 
+3280 4344 M (in.)[18 46  0]xS 
+3315 3270 M (1)S 
+F0S53 Ji 
+2737 4345 M (Width:)[79 23 51 28 51  0]xS 
+1812 4345 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 3271 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2323 3270 M (Not Null)[60 46 23 23 60 46 18  0]xS 
+F0S53 Ji 
+1812 3271 M (Null:)[60 51 23 23  0]xS 
+: 276 4471 4125 23 rc N 287 4482 M 4749 4482 I K 
+; F1S53 Ji 
+1237 4679 M (14)[46  0]xS 
+F0S75 Ji 
+2437 4691 M (estado_civil)[65 65 39 65 71 71 65 65 33 64 33  0]xS 
+F0S53 Ji 
+424 4680 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 4810 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 4680 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 5063 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 5064 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 5207 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 5206 M ('1')[16 46  0]xS 
+F0S53 Ji 
+424 5351 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 5350 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5494 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 5493 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5629 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 5637 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5754 M (Header:)[60 46 46 51 46 32  0]xS 
+424 5880 M (Label:)[51 46 51 46 23  0]xS 
+430 6004 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 6138 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 6137 M (0)S 
+2201 6137 M (0.00)[46 23 46  0]xS 
+2387 6137 M (in.)[18 46  0]xS 
+3082 6137 M (0.00)[46 23 46  0]xS 
+3280 6137 M (in.)[18 46  0]xS 
+3315 5063 M (1)S 
+F0S53 Ji 
+2737 6138 M (Width:)[79 23 51 28 51  0]xS 
+1812 6138 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 5064 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2323 5063 M (Not Null)[60 46 23 23 60 46 18  0]xS 
+F0S53 Ji 
+1812 5064 M (Null:)[60 51 23 23  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 200 694 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F1S64 Ji 
+450 293 M (Page 5 of 22)[67 56 55 56 28 56 28 56 29 28 56  0]xS 
+LH
+(%%[Page: 5]%%) = 
+%%PageTrailer
+
+%%Page: 6 6
+%%PageBoundingBox: 0 0 612 792
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+: N 1881 175 1325 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1881 287 M (Table Definition Report)[71 65 71 33 65 33 84 65 39 33 71 33 39 33 71 71 33 84 65 71 71 46  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 3887 206 500 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 3887 209 500 112 rc F1S64 Ji 
+3887 299 M (07/04/2006)[56 56 28 56 56 28 56 56 56  0]xS 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 600 400 487 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+600 498 M (Database:)[72 56 33 56 61 56 56 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 544 637 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 450 642 M (Table Owner:)[61 56 61 28 56 28 78 80 61 56 39  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 487 700 600 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 487 798 M (Table Name:)[61 56 61 28 56 28 72 56 89 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 544 2068 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 1219 642 M (dbo)[61 61  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 694 2494 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1219 806 M (alumnos)[65 33 71 104 71 71  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 400 1675 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+1219 498 M (unitec)[61 61 28 33 56  0]xS 
+1 Lj 1 Lc 19 Lw : 276 885 4125 23 rc N 287 896 M 4749 896 I K 
+; F1S53 Ji 
+1237 1093 M (15)[46  0]xS 
+F0S75 Ji 
+2437 1105 M (tipo_identificacion)[39 33 71 71 65 33 71 65 71 39 33 39 33 65 65 65 33 71  0]xS 
+F0S53 Ji 
+424 1094 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 1224 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 1094 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 1477 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 1478 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 1621 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 1620 M ('1')[16 46  0]xS 
+F0S53 Ji 
+424 1765 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 1764 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1908 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 1907 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2043 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2051 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2168 M (Header:)[60 46 46 51 46 32  0]xS 
+424 2294 M (Label:)[51 46 51 46 23  0]xS 
+430 2418 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 2552 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2551 M (0)S 
+2201 2551 M (0.00)[46 23 46  0]xS 
+2387 2551 M (in.)[18 46  0]xS 
+3082 2551 M (0.00)[46 23 46  0]xS 
+3280 2551 M (in.)[18 46  0]xS 
+3315 1477 M (1)S 
+F0S53 Ji 
+2737 2552 M (Width:)[79 23 51 28 51  0]xS 
+1812 2552 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 1478 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 1477 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 1478 M (Null:)[60 51 23 23  0]xS 
+: 276 2678 4125 23 rc N 287 2689 M 4749 2689 I K 
+; F1S53 Ji 
+1237 2886 M (16)[46  0]xS 
+F0S75 Ji 
+2437 2898 M (identificacion)[33 71 65 71 39 33 39 33 65 65 65 33 71  0]xS 
+F0S53 Ji 
+424 2887 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 3017 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 2887 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 3270 M (varchar)[41 46 28 42 46 46  0]xS 
+F0S53 Ji 
+424 3271 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 3414 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 3413 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3558 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 3557 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3701 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 3700 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3836 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 3844 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3961 M (Header:)[60 46 46 51 46 32  0]xS 
+424 4087 M (Label:)[51 46 51 46 23  0]xS 
+430 4211 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 4345 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 4344 M (0)S 
+2201 4344 M (0.00)[46 23 46  0]xS 
+2387 4344 M (in.)[18 46  0]xS 
+3082 4344 M (0.00)[46 23 46  0]xS 
+3280 4344 M (in.)[18 46  0]xS 
+3269 3270 M (20)[46  0]xS 
+F0S53 Ji 
+2737 4345 M (Width:)[79 23 51 28 51  0]xS 
+1812 4345 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 3271 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 3270 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 3271 M (Null:)[60 51 23 23  0]xS 
+: 276 4471 4125 23 rc N 287 4482 M 4749 4482 I K 
+; F1S53 Ji 
+1237 4679 M (17)[46  0]xS 
+F0S75 Ji 
+2437 4691 M (direccion_perm)[71 33 46 65 65 65 33 71 71 65 71 65 46  0]xS 
+F0S53 Ji 
+424 4680 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 4810 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 4680 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 5063 M (varchar)[41 46 28 42 46 46  0]xS 
+F0S53 Ji 
+424 5064 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 5207 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 5206 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5351 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 5350 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5494 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 5493 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5629 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 5637 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5754 M (Header:)[60 46 46 51 46 32  0]xS 
+424 5880 M (Label:)[51 46 51 46 23  0]xS 
+430 6004 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 6138 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 6137 M (0)S 
+2201 6137 M (0.00)[46 23 46  0]xS 
+2387 6137 M (in.)[18 46  0]xS 
+3082 6137 M (0.00)[46 23 46  0]xS 
+3280 6137 M (in.)[18 46  0]xS 
+3269 5063 M (60)[46  0]xS 
+F0S53 Ji 
+2737 6138 M (Width:)[79 23 51 28 51  0]xS 
+1812 6138 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 5064 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 5063 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 5064 M (Null:)[60 51 23 23  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 200 694 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F1S64 Ji 
+450 293 M (Page 6 of 22)[67 56 55 56 28 56 28 56 29 28 56  0]xS 
+LH
+(%%[Page: 6]%%) = 
+%%PageTrailer
+
+%%Page: 7 7
+%%PageBoundingBox: 0 0 612 792
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+: N 1881 175 1325 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1881 287 M (Table Definition Report)[71 65 71 33 65 33 84 65 39 33 71 33 39 33 71 71 33 84 65 71 71 46  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 3887 206 500 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 3887 209 500 112 rc F1S64 Ji 
+3887 299 M (07/04/2006)[56 56 28 56 56 28 56 56 56  0]xS 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 600 400 487 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+600 498 M (Database:)[72 56 33 56 61 56 56 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 544 637 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 450 642 M (Table Owner:)[61 56 61 28 56 28 78 80 61 56 39  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 487 700 600 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 487 798 M (Table Name:)[61 56 61 28 56 28 72 56 89 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 544 2068 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 1219 642 M (dbo)[61 61  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 694 2494 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1219 806 M (alumnos)[65 33 71 104 71 71  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 400 1675 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+1219 498 M (unitec)[61 61 28 33 56  0]xS 
+1 Lj 1 Lc 19 Lw : 276 885 4125 23 rc N 287 896 M 4749 896 I K 
+; F1S53 Ji 
+1237 1093 M (18)[46  0]xS 
+F0S75 Ji 
+2437 1105 M (direccion_actual)[71 33 46 65 65 65 33 71 71 65 65 65 39 71 65  0]xS 
+F0S53 Ji 
+424 1094 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 1224 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 1094 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 1477 M (varchar)[41 46 28 42 46 46  0]xS 
+F0S53 Ji 
+424 1478 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 1621 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 1620 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1765 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 1764 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1908 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 1907 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2043 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2051 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2168 M (Header:)[60 46 46 51 46 32  0]xS 
+424 2294 M (Label:)[51 46 51 46 23  0]xS 
+430 2418 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 2552 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2551 M (0)S 
+2201 2551 M (0.00)[46 23 46  0]xS 
+2387 2551 M (in.)[18 46  0]xS 
+3082 2551 M (0.00)[46 23 46  0]xS 
+3280 2551 M (in.)[18 46  0]xS 
+3269 1477 M (60)[46  0]xS 
+F0S53 Ji 
+2737 2552 M (Width:)[79 23 51 28 51  0]xS 
+1812 2552 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 1478 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 1477 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 1478 M (Null:)[60 51 23 23  0]xS 
+: 276 2678 4125 23 rc N 287 2689 M 4749 2689 I K 
+; F1S53 Ji 
+1237 2886 M (19)[46  0]xS 
+F0S75 Ji 
+2437 2898 M (telefono_perm)[39 65 33 65 39 71 71 71 65 71 65 46  0]xS 
+F0S53 Ji 
+424 2887 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 3017 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 2887 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 3270 M (varchar)[41 46 28 42 46 46  0]xS 
+F0S53 Ji 
+424 3271 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 3414 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 3413 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3558 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 3557 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3701 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 3700 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3836 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 3844 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3961 M (Header:)[60 46 46 51 46 32  0]xS 
+424 4087 M (Label:)[51 46 51 46 23  0]xS 
+430 4211 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 4345 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 4344 M (0)S 
+2201 4344 M (0.00)[46 23 46  0]xS 
+2387 4344 M (in.)[18 46  0]xS 
+3082 4344 M (0.00)[46 23 46  0]xS 
+3280 4344 M (in.)[18 46  0]xS 
+3269 3270 M (15)[46  0]xS 
+F0S53 Ji 
+2737 4345 M (Width:)[79 23 51 28 51  0]xS 
+1812 4345 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 3271 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 3270 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 3271 M (Null:)[60 51 23 23  0]xS 
+: 276 4471 4125 23 rc N 287 4482 M 4749 4482 I K 
+; F1S53 Ji 
+1237 4679 M (20)[46  0]xS 
+F0S75 Ji 
+2437 4691 M (telefono_actual)[39 65 33 65 39 71 71 71 65 65 65 39 71 65  0]xS 
+F0S53 Ji 
+424 4680 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 4810 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 4680 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 5063 M (varchar)[41 46 28 42 46 46  0]xS 
+F0S53 Ji 
+424 5064 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 5207 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 5206 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5351 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 5350 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5494 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 5493 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5629 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 5637 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5754 M (Header:)[60 46 46 51 46 32  0]xS 
+424 5880 M (Label:)[51 46 51 46 23  0]xS 
+430 6004 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 6138 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 6137 M (0)S 
+2201 6137 M (0.00)[46 23 46  0]xS 
+2387 6137 M (in.)[18 46  0]xS 
+3082 6137 M (0.00)[46 23 46  0]xS 
+3280 6137 M (in.)[18 46  0]xS 
+3269 5063 M (15)[46  0]xS 
+F0S53 Ji 
+2737 6138 M (Width:)[79 23 51 28 51  0]xS 
+1812 6138 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 5064 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 5063 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 5064 M (Null:)[60 51 23 23  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 200 694 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F1S64 Ji 
+450 293 M (Page 7 of 22)[67 56 55 56 28 56 28 56 29 28 56  0]xS 
+LH
+(%%[Page: 7]%%) = 
+%%PageTrailer
+
+%%Page: 8 8
+%%PageBoundingBox: 0 0 612 792
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+: N 1881 175 1325 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1881 287 M (Table Definition Report)[71 65 71 33 65 33 84 65 39 33 71 33 39 33 71 71 33 84 65 71 71 46  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 3887 206 500 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 3887 209 500 112 rc F1S64 Ji 
+3887 299 M (07/04/2006)[56 56 28 56 56 28 56 56 56  0]xS 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 600 400 487 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+600 498 M (Database:)[72 56 33 56 61 56 56 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 544 637 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 450 642 M (Table Owner:)[61 56 61 28 56 28 78 80 61 56 39  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 487 700 600 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 487 798 M (Table Name:)[61 56 61 28 56 28 72 56 89 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 544 2068 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 1219 642 M (dbo)[61 61  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 694 2494 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1219 806 M (alumnos)[65 33 71 104 71 71  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 400 1675 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+1219 498 M (unitec)[61 61 28 33 56  0]xS 
+1 Lj 1 Lc 19 Lw : 276 885 4125 23 rc N 287 896 M 4749 896 I K 
+; F1S53 Ji 
+1237 1093 M (21)[46  0]xS 
+F0S75 Ji 
+2437 1105 M (e_mail)[65 65 104 65 33  0]xS 
+F0S53 Ji 
+424 1094 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 1224 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 1094 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 1477 M (varchar)[41 46 28 42 46 46  0]xS 
+F0S53 Ji 
+424 1478 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 1621 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 1620 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1765 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 1764 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1908 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 1907 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2043 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2051 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2168 M (Header:)[60 46 46 51 46 32  0]xS 
+424 2294 M (Label:)[51 46 51 46 23  0]xS 
+430 2418 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 2552 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2551 M (0)S 
+2201 2551 M (0.00)[46 23 46  0]xS 
+2387 2551 M (in.)[18 46  0]xS 
+3082 2551 M (0.00)[46 23 46  0]xS 
+3280 2551 M (in.)[18 46  0]xS 
+3269 1477 M (40)[46  0]xS 
+F0S53 Ji 
+2737 2552 M (Width:)[79 23 51 28 51  0]xS 
+1812 2552 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 1478 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 1477 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 1478 M (Null:)[60 51 23 23  0]xS 
+: 276 2678 4125 23 rc N 287 2689 M 4749 2689 I K 
+; F1S53 Ji 
+1237 2886 M (22)[46  0]xS 
+F0S75 Ji 
+2437 2898 M (financiamiento)[39 33 71 65 71 65 33 65 104 33 65 71 39  0]xS 
+F0S53 Ji 
+424 2887 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 3017 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 2887 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 3270 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 3271 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 3414 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 3413 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3558 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 3557 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3701 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 3700 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3836 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 3844 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3961 M (Header:)[60 46 46 51 46 32  0]xS 
+424 4087 M (Label:)[51 46 51 46 23  0]xS 
+430 4211 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 4345 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 4344 M (0)S 
+2201 4344 M (0.00)[46 23 46  0]xS 
+2387 4344 M (in.)[18 46  0]xS 
+3082 4344 M (0.00)[46 23 46  0]xS 
+3280 4344 M (in.)[18 46  0]xS 
+3315 3270 M (1)S 
+F0S53 Ji 
+2737 4345 M (Width:)[79 23 51 28 51  0]xS 
+1812 4345 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 3271 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 3270 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 3271 M (Null:)[60 51 23 23  0]xS 
+: 276 4471 4125 23 rc N 287 4482 M 4749 4482 I K 
+; F1S53 Ji 
+1237 4679 M (23)[46  0]xS 
+F0S75 Ji 
+2437 4691 M (activo)[65 65 39 33 64  0]xS 
+F0S53 Ji 
+424 4680 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 4810 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 4680 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 5063 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 5064 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 5207 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 5206 M ('1')[16 46  0]xS 
+F0S53 Ji 
+424 5351 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 5350 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5494 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 5493 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5629 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 5637 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5754 M (Header:)[60 46 46 51 46 32  0]xS 
+424 5880 M (Label:)[51 46 51 46 23  0]xS 
+430 6004 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 6138 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 6137 M (0)S 
+2201 6137 M (0.00)[46 23 46  0]xS 
+2387 6137 M (in.)[18 46  0]xS 
+3082 6137 M (0.00)[46 23 46  0]xS 
+3280 6137 M (in.)[18 46  0]xS 
+3315 5063 M (1)S 
+F0S53 Ji 
+2737 6138 M (Width:)[79 23 51 28 51  0]xS 
+1812 6138 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 5064 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 5063 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 5064 M (Null:)[60 51 23 23  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 200 694 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F1S64 Ji 
+450 293 M (Page 8 of 22)[67 56 55 56 28 56 28 56 29 28 56  0]xS 
+LH
+(%%[Page: 8]%%) = 
+%%PageTrailer
+
+%%Page: 9 9
+%%PageBoundingBox: 0 0 612 792
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+: N 1881 175 1325 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1881 287 M (Table Definition Report)[71 65 71 33 65 33 84 65 39 33 71 33 39 33 71 71 33 84 65 71 71 46  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 3887 206 500 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 3887 209 500 112 rc F1S64 Ji 
+3887 299 M (07/04/2006)[56 56 28 56 56 28 56 56 56  0]xS 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 600 400 487 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+600 498 M (Database:)[72 56 33 56 61 56 56 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 544 637 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 450 642 M (Table Owner:)[61 56 61 28 56 28 78 80 61 56 39  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 487 700 600 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 487 798 M (Table Name:)[61 56 61 28 56 28 72 56 89 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 544 2068 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 1219 642 M (dbo)[61 61  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 694 2494 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1219 806 M (alumnos)[65 33 71 104 71 71  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 400 1675 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+1219 498 M (unitec)[61 61 28 33 56  0]xS 
+1 Lj 1 Lc 19 Lw : 276 885 4125 23 rc N 287 896 M 4749 896 I K 
+; F1S53 Ji 
+1237 1093 M (24)[46  0]xS 
+F0S75 Ji 
+2437 1105 M (anio_plan)[65 71 33 71 65 71 33 65  0]xS 
+F0S53 Ji 
+424 1094 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 1224 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 1094 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 1477 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 1478 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 1621 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 1620 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1765 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 1764 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1908 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 1907 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2043 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2051 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2168 M (Header:)[60 46 46 51 46 32  0]xS 
+424 2294 M (Label:)[51 46 51 46 23  0]xS 
+430 2418 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 2552 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2551 M (0)S 
+2201 2551 M (0.00)[46 23 46  0]xS 
+2387 2551 M (in.)[18 46  0]xS 
+3082 2551 M (0.00)[46 23 46  0]xS 
+3280 2551 M (in.)[18 46  0]xS 
+3315 1477 M (2)S 
+F0S53 Ji 
+2737 2552 M (Width:)[79 23 51 28 51  0]xS 
+1812 2552 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 1478 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2323 1477 M (Not Null)[60 46 23 23 60 46 18  0]xS 
+F0S53 Ji 
+1812 1478 M (Null:)[60 51 23 23  0]xS 
+: 276 2678 4125 23 rc N 287 2689 M 4749 2689 I K 
+; F1S53 Ji 
+1237 2886 M (25)[46  0]xS 
+F0S75 Ji 
+2437 2898 M (cambios)[65 65 104 71 33 71  0]xS 
+F0S53 Ji 
+424 2887 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 3017 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 2887 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 3270 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 3271 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 3414 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 3413 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3558 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 3557 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3701 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 3700 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3836 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 3844 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3961 M (Header:)[60 46 46 51 46 32  0]xS 
+424 4087 M (Label:)[51 46 51 46 23  0]xS 
+430 4211 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 4345 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 4344 M (0)S 
+2201 4344 M (0.00)[46 23 46  0]xS 
+2387 4344 M (in.)[18 46  0]xS 
+3082 4344 M (0.00)[46 23 46  0]xS 
+3280 4344 M (in.)[18 46  0]xS 
+3315 3270 M (1)S 
+F0S53 Ji 
+2737 4345 M (Width:)[79 23 51 28 51  0]xS 
+1812 4345 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 3271 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 3270 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 3271 M (Null:)[60 51 23 23  0]xS 
+: 276 4471 4125 23 rc N 287 4482 M 4749 4482 I K 
+; F1S53 Ji 
+1237 4679 M (26)[46  0]xS 
+F0S75 Ji 
+2437 4691 M (municipio_trabajo)[104 71 71 33 65 33 71 33 71 65 39 46 65 71 65 33  0]xS 
+F0S53 Ji 
+424 4680 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 4810 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 4680 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 5063 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 5064 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 5207 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 5206 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5351 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 5350 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5494 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 5493 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5629 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 5637 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5754 M (Header:)[60 46 46 51 46 32  0]xS 
+424 5880 M (Label:)[51 46 51 46 23  0]xS 
+430 6004 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 6138 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 6137 M (0)S 
+2201 6137 M (0.00)[46 23 46  0]xS 
+2387 6137 M (in.)[18 46  0]xS 
+3082 6137 M (0.00)[46 23 46  0]xS 
+3280 6137 M (in.)[18 46  0]xS 
+3315 5063 M (4)S 
+F0S53 Ji 
+2737 6138 M (Width:)[79 23 51 28 51  0]xS 
+1812 6138 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 5064 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 5063 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 5064 M (Null:)[60 51 23 23  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 200 694 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F1S64 Ji 
+450 293 M (Page 9 of 22)[67 56 55 56 28 56 28 56 29 28 56  0]xS 
+LH
+(%%[Page: 9]%%) = 
+%%PageTrailer
+
+%%Page: 10 10
+%%PageBoundingBox: 0 0 612 792
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+: N 1881 175 1325 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1881 287 M (Table Definition Report)[71 65 71 33 65 33 84 65 39 33 71 33 39 33 71 71 33 84 65 71 71 46  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 3887 206 500 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 3887 209 500 112 rc F1S64 Ji 
+3887 299 M (07/04/2006)[56 56 28 56 56 28 56 56 56  0]xS 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 600 400 487 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+600 498 M (Database:)[72 56 33 56 61 56 56 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 544 637 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 450 642 M (Table Owner:)[61 56 61 28 56 28 78 80 61 56 39  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 487 700 600 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 487 798 M (Table Name:)[61 56 61 28 56 28 72 56 89 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 544 2068 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 1219 642 M (dbo)[61 61  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 694 2494 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1219 806 M (alumnos)[65 33 71 104 71 71  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 400 1675 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+1219 498 M (unitec)[61 61 28 33 56  0]xS 
+1 Lj 1 Lc 19 Lw : 276 885 4125 23 rc N 287 896 M 4749 896 I K 
+; F1S53 Ji 
+1237 1093 M (27)[46  0]xS 
+F0S75 Ji 
+2437 1105 M (indice_graduacion)[33 71 71 33 65 65 65 71 46 65 71 71 65 65 33 71  0]xS 
+F0S53 Ji 
+424 1094 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 1224 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 1094 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 1477 M (numeric)[46 46 71 46 28 18  0]xS 
+F0S53 Ji 
+424 1478 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 1621 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 1620 M (0)S 
+F0S53 Ji 
+424 1765 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 1764 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1908 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 1907 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2043 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2051 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2168 M (Header:)[60 46 46 51 46 32  0]xS 
+424 2294 M (Label:)[51 46 51 46 23  0]xS 
+430 2418 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 2552 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2551 M (0)S 
+2201 2551 M (0.00)[46 23 46  0]xS 
+2387 2551 M (in.)[18 46  0]xS 
+3082 2551 M (0.00)[46 23 46  0]xS 
+3280 2551 M (in.)[18 46  0]xS 
+3315 1477 M (6)S 
+F0S53 Ji 
+3693 1478 M (Scale:)[55 46 46 23 46  0]xS 
+F1S53 Ji 
+4228 1477 M (2)S 
+F0S53 Ji 
+2737 2552 M (Width:)[79 23 51 28 51  0]xS 
+1812 2552 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 1478 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 1477 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 1478 M (Null:)[60 51 23 23  0]xS 
+: 276 2678 4125 23 rc N 287 2689 M 4749 2689 I K 
+; F1S53 Ji 
+1237 2886 M (28)[46  0]xS 
+F0S75 Ji 
+2437 2898 M (campus)[65 65 104 71 71  0]xS 
+F0S53 Ji 
+424 2887 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 3017 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 2887 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 3270 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 3271 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 3414 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 3413 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3558 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 3557 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3701 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 3700 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3836 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 3844 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3961 M (Header:)[60 46 46 51 46 32  0]xS 
+424 4087 M (Label:)[51 46 51 46 23  0]xS 
+430 4211 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 4345 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 4344 M (0)S 
+2201 4344 M (0.00)[46 23 46  0]xS 
+2387 4344 M (in.)[18 46  0]xS 
+3082 4344 M (0.00)[46 23 46  0]xS 
+3280 4344 M (in.)[18 46  0]xS 
+3315 3270 M (3)S 
+F0S53 Ji 
+2737 4345 M (Width:)[79 23 51 28 51  0]xS 
+1812 4345 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 3271 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 3270 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 3271 M (Null:)[60 51 23 23  0]xS 
+: 276 4471 4125 23 rc N 287 4482 M 4749 4482 I K 
+; F1S53 Ji 
+1237 4679 M (29)[46  0]xS 
+F0S75 Ji 
+2437 4691 M (cuenta_2)[65 71 65 71 39 65 65  0]xS 
+F0S53 Ji 
+424 4680 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 4810 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 4680 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 5063 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 5064 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 5207 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 5206 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5351 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 5350 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5494 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 5493 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5629 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 5637 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5754 M (Header:)[60 46 46 51 46 32  0]xS 
+424 5880 M (Label:)[51 46 51 46 23  0]xS 
+430 6004 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 6138 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 6137 M (0)S 
+2201 6137 M (0.00)[46 23 46  0]xS 
+2387 6137 M (in.)[18 46  0]xS 
+3082 6137 M (0.00)[46 23 46  0]xS 
+3280 6137 M (in.)[18 46  0]xS 
+3269 5063 M (10)[46  0]xS 
+F0S53 Ji 
+2737 6138 M (Width:)[79 23 51 28 51  0]xS 
+1812 6138 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 5064 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 5063 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 5064 M (Null:)[60 51 23 23  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 200 694 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F1S64 Ji 
+450 293 M (Page 10 of 22)[67 56 55 56 28 56 56 28 56 29 28 56  0]xS 
+LH
+(%%[Page: 10]%%) = 
+%%PageTrailer
+
+%%Page: 11 11
+%%PageBoundingBox: 0 0 612 792
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+: N 1881 175 1325 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1881 287 M (Table Definition Report)[71 65 71 33 65 33 84 65 39 33 71 33 39 33 71 71 33 84 65 71 71 46  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 3887 206 500 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 3887 209 500 112 rc F1S64 Ji 
+3887 299 M (07/04/2006)[56 56 28 56 56 28 56 56 56  0]xS 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 600 400 487 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+600 498 M (Database:)[72 56 33 56 61 56 56 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 544 637 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 450 642 M (Table Owner:)[61 56 61 28 56 28 78 80 61 56 39  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 487 700 600 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 487 798 M (Table Name:)[61 56 61 28 56 28 72 56 89 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 544 2068 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 1219 642 M (dbo)[61 61  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 694 2494 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1219 806 M (alumnos)[65 33 71 104 71 71  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 400 1675 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+1219 498 M (unitec)[61 61 28 33 56  0]xS 
+1 Lj 1 Lc 19 Lw : 276 885 4125 23 rc N 287 896 M 4749 896 I K 
+; F1S53 Ji 
+1237 1093 M (30)[46  0]xS 
+F0S75 Ji 
+2437 1105 M (universidad)[71 71 33 64 65 46 65 33 71 65  0]xS 
+F0S53 Ji 
+424 1094 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 1224 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 1094 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 1477 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 1478 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 1621 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 1620 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1765 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 1764 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1908 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 1907 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2043 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2051 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2168 M (Header:)[60 46 46 51 46 32  0]xS 
+424 2294 M (Label:)[51 46 51 46 23  0]xS 
+430 2418 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 2552 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2551 M (0)S 
+2201 2551 M (0.00)[46 23 46  0]xS 
+2387 2551 M (in.)[18 46  0]xS 
+3082 2551 M (0.00)[46 23 46  0]xS 
+3280 2551 M (in.)[18 46  0]xS 
+3315 1477 M (3)S 
+F0S53 Ji 
+2737 2552 M (Width:)[79 23 51 28 51  0]xS 
+1812 2552 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 1478 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 1477 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 1478 M (Null:)[60 51 23 23  0]xS 
+: 276 2678 4125 23 rc N 287 2689 M 4749 2689 I K 
+; F1S53 Ji 
+1237 2886 M (31)[46  0]xS 
+F0S75 Ji 
+2437 2898 M (ciudad_colonia)[65 33 71 71 65 71 65 65 71 33 71 71 33  0]xS 
+F0S53 Ji 
+424 2887 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 3017 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 2887 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 3270 M (int)[18 46  0]xS 
+F0S53 Ji 
+424 3271 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 3414 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 3413 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3558 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 3557 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3701 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 3700 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3836 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 3844 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3961 M (Header:)[60 46 46 51 46 32  0]xS 
+424 4087 M (Label:)[51 46 51 46 23  0]xS 
+430 4211 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 4345 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 4344 M (0)S 
+2201 4344 M (0.00)[46 23 46  0]xS 
+2387 4344 M (in.)[18 46  0]xS 
+3082 4344 M (0.00)[46 23 46  0]xS 
+3280 4344 M (in.)[18 46  0]xS 
+F0S53 Ji 
+2737 4345 M (Width:)[79 23 51 28 51  0]xS 
+1812 4345 M (Height:)[60 46 23 51 51 28  0]xS 
+F1S53 Ji 
+2122 3270 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 3271 M (Null:)[60 51 23 23  0]xS 
+: 276 4471 4125 23 rc N 287 4482 M 4749 4482 I K 
+; F1S53 Ji 
+1237 4679 M (32)[46  0]xS 
+F0S75 Ji 
+2437 4691 M (codigo_colonia)[65 71 71 33 71 71 65 65 71 33 71 71 33  0]xS 
+F0S53 Ji 
+424 4680 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 4810 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 4680 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 5063 M (int)[18 46  0]xS 
+F0S53 Ji 
+424 5064 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 5207 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 5206 M (0)S 
+F0S53 Ji 
+424 5351 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 5350 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5494 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 5493 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5629 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 5637 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5754 M (Header:)[60 46 46 51 46 32  0]xS 
+424 5880 M (Label:)[51 46 51 46 23  0]xS 
+430 6004 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 6138 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 6137 M (0)S 
+2201 6137 M (0.00)[46 23 46  0]xS 
+2387 6137 M (in.)[18 46  0]xS 
+3082 6137 M (0.00)[46 23 46  0]xS 
+3280 6137 M (in.)[18 46  0]xS 
+F0S53 Ji 
+2737 6138 M (Width:)[79 23 51 28 51  0]xS 
+1812 6138 M (Height:)[60 46 23 51 51 28  0]xS 
+F1S53 Ji 
+2122 5063 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 5064 M (Null:)[60 51 23 23  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 200 694 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F1S64 Ji 
+450 293 M (Page 11 of 22)[67 56 55 56 28 56 56 28 56 29 28 56  0]xS 
+LH
+(%%[Page: 11]%%) = 
+%%PageTrailer
+
+%%Page: 12 12
+%%PageBoundingBox: 0 0 612 792
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+: N 1881 175 1325 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1881 287 M (Table Definition Report)[71 65 71 33 65 33 84 65 39 33 71 33 39 33 71 71 33 84 65 71 71 46  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 3887 206 500 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 3887 209 500 112 rc F1S64 Ji 
+3887 299 M (07/04/2006)[56 56 28 56 56 28 56 56 56  0]xS 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 600 400 487 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+600 498 M (Database:)[72 56 33 56 61 56 56 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 544 637 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 450 642 M (Table Owner:)[61 56 61 28 56 28 78 80 61 56 39  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 487 700 600 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 487 798 M (Table Name:)[61 56 61 28 56 28 72 56 89 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 544 2068 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 1219 642 M (dbo)[61 61  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 694 2494 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1219 806 M (alumnos)[65 33 71 104 71 71  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 400 1675 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+1219 498 M (unitec)[61 61 28 33 56  0]xS 
+1 Lj 1 Lc 19 Lw : 276 885 4125 23 rc N 287 896 M 4749 896 I K 
+; F1S53 Ji 
+1237 1093 M (33)[46  0]xS 
+F0S75 Ji 
+2437 1105 M (orientacion)[71 46 33 65 71 39 65 65 33 71  0]xS 
+F0S53 Ji 
+424 1094 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 1224 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 1094 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 1477 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 1478 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 1621 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 1620 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1765 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 1764 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1908 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 1907 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2043 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2051 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2168 M (Header:)[60 46 46 51 46 32  0]xS 
+424 2294 M (Label:)[51 46 51 46 23  0]xS 
+430 2418 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 2552 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2551 M (0)S 
+2201 2551 M (0.00)[46 23 46  0]xS 
+2387 2551 M (in.)[18 46  0]xS 
+3082 2551 M (0.00)[46 23 46  0]xS 
+3280 2551 M (in.)[18 46  0]xS 
+3315 1477 M (6)S 
+F0S53 Ji 
+2737 2552 M (Width:)[79 23 51 28 51  0]xS 
+1812 2552 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 1478 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 1477 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 1478 M (Null:)[60 51 23 23  0]xS 
+: 276 2678 4125 23 rc N 287 2689 M 4749 2689 I K 
+; F1S53 Ji 
+1237 2886 M (34)[46  0]xS 
+F0S75 Ji 
+2437 2898 M (vencimiento_residencia)[64 65 71 65 33 104 33 65 71 39 71 65 46 65 65 33 71 65 71 65 33  0]xS 
+F0S53 Ji 
+424 2887 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 3017 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 2887 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 3270 M (datetime)[46 46 23 46 23 18 71  0]xS 
+F0S53 Ji 
+424 3271 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 3414 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 3413 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3558 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 3557 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3701 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 3700 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3836 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 3844 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3961 M (Header:)[60 46 46 51 46 32  0]xS 
+424 4087 M (Label:)[51 46 51 46 23  0]xS 
+430 4211 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 4345 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 4344 M (0)S 
+2201 4344 M (0.00)[46 23 46  0]xS 
+2387 4344 M (in.)[18 46  0]xS 
+3082 4344 M (0.00)[46 23 46  0]xS 
+3280 4344 M (in.)[18 46  0]xS 
+F0S53 Ji 
+2737 4345 M (Width:)[79 23 51 28 51  0]xS 
+1812 4345 M (Height:)[60 46 23 51 51 28  0]xS 
+F1S53 Ji 
+2122 3270 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 3271 M (Null:)[60 51 23 23  0]xS 
+: 276 4471 4125 23 rc N 287 4482 M 4749 4482 I K 
+; F1S53 Ji 
+1237 4679 M (35)[46  0]xS 
+F0S75 Ji 
+2437 4691 M (moroso)[104 71 46 71 65  0]xS 
+F0S53 Ji 
+424 4680 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 4810 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 4680 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 5063 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 5064 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 5207 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 5206 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5351 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 5350 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5494 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 5493 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5629 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 5637 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5754 M (Header:)[60 46 46 51 46 32  0]xS 
+424 5880 M (Label:)[51 46 51 46 23  0]xS 
+430 6004 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 6138 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 6137 M (0)S 
+2201 6137 M (0.00)[46 23 46  0]xS 
+2387 6137 M (in.)[18 46  0]xS 
+3082 6137 M (0.00)[46 23 46  0]xS 
+3280 6137 M (in.)[18 46  0]xS 
+3315 5063 M (1)S 
+F0S53 Ji 
+2737 6138 M (Width:)[79 23 51 28 51  0]xS 
+1812 6138 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 5064 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 5063 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 5064 M (Null:)[60 51 23 23  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 200 694 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F1S64 Ji 
+450 293 M (Page 12 of 22)[67 56 55 56 28 56 56 28 56 29 28 56  0]xS 
+LH
+(%%[Page: 12]%%) = 
+%%PageTrailer
+
+%%Page: 13 13
+%%PageBoundingBox: 0 0 612 792
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+: N 1881 175 1325 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1881 287 M (Table Definition Report)[71 65 71 33 65 33 84 65 39 33 71 33 39 33 71 71 33 84 65 71 71 46  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 3887 206 500 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 3887 209 500 112 rc F1S64 Ji 
+3887 299 M (07/04/2006)[56 56 28 56 56 28 56 56 56  0]xS 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 600 400 487 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+600 498 M (Database:)[72 56 33 56 61 56 56 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 544 637 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 450 642 M (Table Owner:)[61 56 61 28 56 28 78 80 61 56 39  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 487 700 600 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 487 798 M (Table Name:)[61 56 61 28 56 28 72 56 89 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 544 2068 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 1219 642 M (dbo)[61 61  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 694 2494 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1219 806 M (alumnos)[65 33 71 104 71 71  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 400 1675 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+1219 498 M (unitec)[61 61 28 33 56  0]xS 
+1 Lj 1 Lc 19 Lw : 276 885 4125 23 rc N 287 896 M 4749 896 I K 
+; F1S53 Ji 
+1237 1093 M (36)[46  0]xS 
+F0S75 Ji 
+2437 1105 M (bitacora)[71 33 39 65 65 71 46  0]xS 
+F0S53 Ji 
+424 1094 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 1224 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 1094 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 1477 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 1478 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 1621 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 1620 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1765 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 1764 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1908 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 1907 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2043 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2051 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2168 M (Header:)[60 46 46 51 46 32  0]xS 
+424 2294 M (Label:)[51 46 51 46 23  0]xS 
+430 2418 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 2552 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2551 M (0)S 
+2201 2551 M (0.00)[46 23 46  0]xS 
+2387 2551 M (in.)[18 46  0]xS 
+3082 2551 M (0.00)[46 23 46  0]xS 
+3280 2551 M (in.)[18 46  0]xS 
+3269 1477 M (40)[46  0]xS 
+F0S53 Ji 
+2737 2552 M (Width:)[79 23 51 28 51  0]xS 
+1812 2552 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 1478 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 1477 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 1478 M (Null:)[60 51 23 23  0]xS 
+: 276 2678 4125 23 rc N 287 2689 M 4749 2689 I K 
+; F1S53 Ji 
+1237 2886 M (37)[46  0]xS 
+F0S75 Ji 
+2437 2898 M (pasaporte)[71 65 65 65 71 71 46 39  0]xS 
+F0S53 Ji 
+424 2887 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 3017 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 2887 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 3270 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 3271 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 3414 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 3413 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3558 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 3557 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3701 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 3700 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3836 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 3844 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3961 M (Header:)[60 46 46 51 46 32  0]xS 
+424 4087 M (Label:)[51 46 51 46 23  0]xS 
+430 4211 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 4345 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 4344 M (0)S 
+2201 4344 M (0.00)[46 23 46  0]xS 
+2387 4344 M (in.)[18 46  0]xS 
+3082 4344 M (0.00)[46 23 46  0]xS 
+3280 4344 M (in.)[18 46  0]xS 
+3315 3270 M (1)S 
+F0S53 Ji 
+2737 4345 M (Width:)[79 23 51 28 51  0]xS 
+1812 4345 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 3271 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 3270 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 3271 M (Null:)[60 51 23 23  0]xS 
+: 276 4471 4125 23 rc N 287 4482 M 4749 4482 I K 
+; F1S53 Ji 
+1237 4679 M (38)[46  0]xS 
+F0S75 Ji 
+2437 4691 M (vigente_pasaporte)[64 33 71 65 71 39 65 65 71 65 65 65 71 71 46 39  0]xS 
+F0S53 Ji 
+424 4680 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 4810 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 4680 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 5063 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 5064 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 5207 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 5206 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5351 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 5350 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5494 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 5493 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5629 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 5637 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5754 M (Header:)[60 46 46 51 46 32  0]xS 
+424 5880 M (Label:)[51 46 51 46 23  0]xS 
+430 6004 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 6138 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 6137 M (0)S 
+2201 6137 M (0.00)[46 23 46  0]xS 
+2387 6137 M (in.)[18 46  0]xS 
+3082 6137 M (0.00)[46 23 46  0]xS 
+3280 6137 M (in.)[18 46  0]xS 
+3315 5063 M (1)S 
+F0S53 Ji 
+2737 6138 M (Width:)[79 23 51 28 51  0]xS 
+1812 6138 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 5064 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 5063 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 5064 M (Null:)[60 51 23 23  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 200 694 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F1S64 Ji 
+450 293 M (Page 13 of 22)[67 56 55 56 28 56 56 28 56 29 28 56  0]xS 
+LH
+(%%[Page: 13]%%) = 
+%%PageTrailer
+
+%%Page: 14 14
+%%PageBoundingBox: 0 0 612 792
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+: N 1881 175 1325 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1881 287 M (Table Definition Report)[71 65 71 33 65 33 84 65 39 33 71 33 39 33 71 71 33 84 65 71 71 46  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 3887 206 500 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 3887 209 500 112 rc F1S64 Ji 
+3887 299 M (07/04/2006)[56 56 28 56 56 28 56 56 56  0]xS 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 600 400 487 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+600 498 M (Database:)[72 56 33 56 61 56 56 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 544 637 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 450 642 M (Table Owner:)[61 56 61 28 56 28 78 80 61 56 39  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 487 700 600 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 487 798 M (Table Name:)[61 56 61 28 56 28 72 56 89 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 544 2068 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 1219 642 M (dbo)[61 61  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 694 2494 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1219 806 M (alumnos)[65 33 71 104 71 71  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 400 1675 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+1219 498 M (unitec)[61 61 28 33 56  0]xS 
+1 Lj 1 Lc 19 Lw : 276 885 4125 23 rc N 287 896 M 4749 896 I K 
+; F1S53 Ji 
+1237 1093 M (39)[46  0]xS 
+F0S75 Ji 
+2437 1105 M (visa_usa)[64 33 65 65 65 71 65  0]xS 
+F0S53 Ji 
+424 1094 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 1224 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 1094 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 1477 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 1478 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 1621 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 1620 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1765 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 1764 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1908 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 1907 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2043 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2051 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2168 M (Header:)[60 46 46 51 46 32  0]xS 
+424 2294 M (Label:)[51 46 51 46 23  0]xS 
+430 2418 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 2552 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2551 M (0)S 
+2201 2551 M (0.00)[46 23 46  0]xS 
+2387 2551 M (in.)[18 46  0]xS 
+3082 2551 M (0.00)[46 23 46  0]xS 
+3280 2551 M (in.)[18 46  0]xS 
+3315 1477 M (1)S 
+F0S53 Ji 
+2737 2552 M (Width:)[79 23 51 28 51  0]xS 
+1812 2552 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 1478 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 1477 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 1478 M (Null:)[60 51 23 23  0]xS 
+: 276 2678 4125 23 rc N 287 2689 M 4749 2689 I K 
+; F1S53 Ji 
+1237 2886 M (40)[46  0]xS 
+F0S75 Ji 
+2437 2898 M (generacion)[71 65 71 65 46 65 65 33 71  0]xS 
+F0S53 Ji 
+424 2887 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 3017 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 2887 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 3270 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 3271 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 3414 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 3413 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3558 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 3557 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3701 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 3700 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3836 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 3844 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3961 M (Header:)[60 46 46 51 46 32  0]xS 
+424 4087 M (Label:)[51 46 51 46 23  0]xS 
+430 4211 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 4345 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 4344 M (0)S 
+2201 4344 M (0.00)[46 23 46  0]xS 
+2387 4344 M (in.)[18 46  0]xS 
+3082 4344 M (0.00)[46 23 46  0]xS 
+3280 4344 M (in.)[18 46  0]xS 
+3315 3270 M (4)S 
+F0S53 Ji 
+2737 4345 M (Width:)[79 23 51 28 51  0]xS 
+1812 4345 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 3271 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 3270 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 3271 M (Null:)[60 51 23 23  0]xS 
+: 276 4471 4125 23 rc N 287 4482 M 4749 4482 I K 
+; F1S53 Ji 
+1237 4679 M (41)[46  0]xS 
+F0S75 Ji 
+2437 4691 M (uv_total)[71 64 65 39 71 39 65  0]xS 
+F0S53 Ji 
+424 4680 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 4810 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 4680 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 5063 M (int)[18 46  0]xS 
+F0S53 Ji 
+424 5064 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 5207 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 5206 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5351 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 5350 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5494 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 5493 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5629 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 5637 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5754 M (Header:)[60 46 46 51 46 32  0]xS 
+424 5880 M (Label:)[51 46 51 46 23  0]xS 
+430 6004 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 6138 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 6137 M (0)S 
+2201 6137 M (0.00)[46 23 46  0]xS 
+2387 6137 M (in.)[18 46  0]xS 
+3082 6137 M (0.00)[46 23 46  0]xS 
+3280 6137 M (in.)[18 46  0]xS 
+F0S53 Ji 
+2737 6138 M (Width:)[79 23 51 28 51  0]xS 
+1812 6138 M (Height:)[60 46 23 51 51 28  0]xS 
+F1S53 Ji 
+2122 5063 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 5064 M (Null:)[60 51 23 23  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 200 694 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F1S64 Ji 
+450 293 M (Page 14 of 22)[67 56 55 56 28 56 56 28 56 29 28 56  0]xS 
+LH
+(%%[Page: 14]%%) = 
+%%PageTrailer
+
+%%Page: 15 15
+%%PageBoundingBox: 0 0 612 792
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+: N 1881 175 1325 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1881 287 M (Table Definition Report)[71 65 71 33 65 33 84 65 39 33 71 33 39 33 71 71 33 84 65 71 71 46  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 3887 206 500 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 3887 209 500 112 rc F1S64 Ji 
+3887 299 M (07/04/2006)[56 56 28 56 56 28 56 56 56  0]xS 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 600 400 487 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+600 498 M (Database:)[72 56 33 56 61 56 56 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 544 637 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 450 642 M (Table Owner:)[61 56 61 28 56 28 78 80 61 56 39  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 487 700 600 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 487 798 M (Table Name:)[61 56 61 28 56 28 72 56 89 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 544 2068 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 1219 642 M (dbo)[61 61  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 694 2494 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1219 806 M (alumnos)[65 33 71 104 71 71  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 400 1675 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+1219 498 M (unitec)[61 61 28 33 56  0]xS 
+1 Lj 1 Lc 19 Lw : 276 885 4125 23 rc N 287 896 M 4749 896 I K 
+; F1S53 Ji 
+1237 1093 M (42)[46  0]xS 
+F0S75 Ji 
+2437 1105 M (cuarta_clase)[65 71 65 46 39 65 65 65 33 65 65  0]xS 
+F0S53 Ji 
+424 1094 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 1224 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 1094 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 1477 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 1478 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 1621 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 1620 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1765 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 1764 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1908 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 1907 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2043 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2051 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2168 M (Header:)[60 46 46 51 46 32  0]xS 
+424 2294 M (Label:)[51 46 51 46 23  0]xS 
+430 2418 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 2552 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2551 M (0)S 
+2201 2551 M (0.00)[46 23 46  0]xS 
+2387 2551 M (in.)[18 46  0]xS 
+3082 2551 M (0.00)[46 23 46  0]xS 
+3280 2551 M (in.)[18 46  0]xS 
+3315 1477 M (1)S 
+F0S53 Ji 
+2737 2552 M (Width:)[79 23 51 28 51  0]xS 
+1812 2552 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 1478 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 1477 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 1478 M (Null:)[60 51 23 23  0]xS 
+: 276 2678 4125 23 rc N 287 2689 M 4749 2689 I K 
+; F1S53 Ji 
+1237 2886 M (43)[46  0]xS 
+F0S75 Ji 
+2437 2898 M (cod_mensaje)[65 71 71 65 104 65 71 65 65 33  0]xS 
+F0S53 Ji 
+424 2887 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 3017 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 2887 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 3270 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 3271 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 3414 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 3413 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3558 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 3557 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3701 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 3700 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3836 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 3844 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3961 M (Header:)[60 46 46 51 46 32  0]xS 
+424 4087 M (Label:)[51 46 51 46 23  0]xS 
+430 4211 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 4345 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 4344 M (0)S 
+2201 4344 M (0.00)[46 23 46  0]xS 
+2387 4344 M (in.)[18 46  0]xS 
+3082 4344 M (0.00)[46 23 46  0]xS 
+3280 4344 M (in.)[18 46  0]xS 
+3315 3270 M (3)S 
+F0S53 Ji 
+2737 4345 M (Width:)[79 23 51 28 51  0]xS 
+1812 4345 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 3271 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 3270 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 3271 M (Null:)[60 51 23 23  0]xS 
+: 276 4471 4125 23 rc N 287 4482 M 4749 4482 I K 
+; F1S53 Ji 
+1237 4679 M (44)[46  0]xS 
+F0S75 Ji 
+2437 4691 M (tiene_mensaje)[39 33 65 71 65 65 104 65 71 65 65 33  0]xS 
+F0S53 Ji 
+424 4680 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 4810 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 4680 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 5063 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 5064 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 5207 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 5206 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5351 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 5350 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5494 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 5493 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5629 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 5637 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5754 M (Header:)[60 46 46 51 46 32  0]xS 
+424 5880 M (Label:)[51 46 51 46 23  0]xS 
+430 6004 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 6138 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 6137 M (Left)[46 46 24  0]xS 
+2201 6137 M (0.40)[46 23 46  0]xS 
+2387 6137 M (in.)[18 46  0]xS 
+3082 6137 M (0.82)[46 23 46  0]xS 
+3280 6137 M (in.)[18 46  0]xS 
+3315 5063 M (1)S 
+F0S53 Ji 
+2737 6138 M (Width:)[79 23 51 28 51  0]xS 
+1812 6138 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 5064 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 5063 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 5064 M (Null:)[60 51 23 23  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 200 694 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F1S64 Ji 
+450 293 M (Page 15 of 22)[67 56 55 56 28 56 56 28 56 29 28 56  0]xS 
+LH
+(%%[Page: 15]%%) = 
+%%PageTrailer
+
+%%Page: 16 16
+%%PageBoundingBox: 0 0 612 792
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+: N 1881 175 1325 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1881 287 M (Table Definition Report)[71 65 71 33 65 33 84 65 39 33 71 33 39 33 71 71 33 84 65 71 71 46  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 3887 206 500 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 3887 209 500 112 rc F1S64 Ji 
+3887 299 M (07/04/2006)[56 56 28 56 56 28 56 56 56  0]xS 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 600 400 487 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+600 498 M (Database:)[72 56 33 56 61 56 56 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 544 637 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 450 642 M (Table Owner:)[61 56 61 28 56 28 78 80 61 56 39  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 487 700 600 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 487 798 M (Table Name:)[61 56 61 28 56 28 72 56 89 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 544 2068 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 1219 642 M (dbo)[61 61  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 694 2494 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1219 806 M (alumnos)[65 33 71 104 71 71  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 400 1675 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+1219 498 M (unitec)[61 61 28 33 56  0]xS 
+1 Lj 1 Lc 19 Lw : 276 885 4125 23 rc N 287 896 M 4749 896 I K 
+; F1S53 Ji 
+1237 1093 M (45)[46  0]xS 
+F0S75 Ji 
+2437 1105 M (uv_cursadas)[71 64 65 65 71 46 65 65 71 65  0]xS 
+F0S53 Ji 
+424 1094 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 1224 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 1094 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 1477 M (smallint)[42 71 46 18 18 18 46  0]xS 
+F0S53 Ji 
+424 1478 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 1621 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 1620 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1765 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 1764 M ([General])[23 65 46 46 46 28 46 18  0]xS 
+F0S53 Ji 
+424 1908 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 1907 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2043 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2051 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2168 M (Header:)[60 46 46 51 46 32  0]xS 
+424 2294 M (Label:)[51 46 51 46 23  0]xS 
+430 2418 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 2552 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2551 M (Right)[60 18 46 46  0]xS 
+2201 2551 M (0.40)[46 23 46  0]xS 
+2387 2551 M (in.)[18 46  0]xS 
+3082 2551 M (1.24)[46 23 46  0]xS 
+3280 2551 M (in.)[18 46  0]xS 
+F0S53 Ji 
+2737 2552 M (Width:)[79 23 51 28 51  0]xS 
+1812 2552 M (Height:)[60 46 23 51 51 28  0]xS 
+F1S53 Ji 
+2122 1477 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 1478 M (Null:)[60 51 23 23  0]xS 
+: 276 2678 4125 23 rc N 287 2689 M 4749 2689 I K 
+; F1S53 Ji 
+1237 2886 M (46)[46  0]xS 
+F0S75 Ji 
+2437 2898 M (indice_sem_anterior)[33 71 71 33 65 65 65 65 65 104 65 65 71 39 65 46 33 71  0]xS 
+F0S53 Ji 
+424 2887 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 3017 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 2887 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 3270 M (numeric)[46 46 71 46 28 18  0]xS 
+F0S53 Ji 
+424 3271 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 3414 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 3413 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3558 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 3557 M ([General])[23 65 46 46 46 28 46 18  0]xS 
+F0S53 Ji 
+424 3701 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 3700 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3836 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 3844 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 3961 M (Header:)[60 46 46 51 46 32  0]xS 
+424 4087 M (Label:)[51 46 51 46 23  0]xS 
+430 4211 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 4345 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 4344 M (Right)[60 18 46 46  0]xS 
+2201 4344 M (0.40)[46 23 46  0]xS 
+2387 4344 M (in.)[18 46  0]xS 
+3082 4344 M (2.30)[46 23 46  0]xS 
+3280 4344 M (in.)[18 46  0]xS 
+3315 3270 M (6)S 
+F0S53 Ji 
+3693 3271 M (Scale:)[55 46 46 23 46  0]xS 
+F1S53 Ji 
+4228 3270 M (2)S 
+F0S53 Ji 
+2737 4345 M (Width:)[79 23 51 28 51  0]xS 
+1812 4345 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 3271 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 3270 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 3271 M (Null:)[60 51 23 23  0]xS 
+: 276 4471 4125 23 rc N 287 4482 M 4749 4482 I K 
+; F1S53 Ji 
+1237 4679 M (47)[46  0]xS 
+F0S75 Ji 
+2437 4691 M (vencimiento_mensaje)[64 65 71 65 33 104 33 65 71 39 71 65 104 65 71 65 65 33  0]xS 
+F0S53 Ji 
+424 4680 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 4810 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 4680 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 5063 M (datetime)[46 46 23 46 23 18 71  0]xS 
+F0S53 Ji 
+424 5064 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 5207 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 5206 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5351 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 5350 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5494 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 5493 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5629 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 5637 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 5754 M (Header:)[60 46 46 51 46 32  0]xS 
+424 5880 M (Label:)[51 46 51 46 23  0]xS 
+430 6004 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 6138 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 6137 M (Left)[46 46 24  0]xS 
+2201 6137 M (0.40)[46 23 46  0]xS 
+2387 6137 M (in.)[18 46  0]xS 
+3082 6137 M (4.45)[46 23 46  0]xS 
+3280 6137 M (in.)[18 46  0]xS 
+F0S53 Ji 
+2737 6138 M (Width:)[79 23 51 28 51  0]xS 
+1812 6138 M (Height:)[60 46 23 51 51 28  0]xS 
+F1S53 Ji 
+2122 5063 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 5064 M (Null:)[60 51 23 23  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 200 694 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F1S64 Ji 
+450 293 M (Page 16 of 22)[67 56 55 56 28 56 56 28 56 29 28 56  0]xS 
+LH
+(%%[Page: 16]%%) = 
+%%PageTrailer
+
+%%Page: 17 17
+%%PageBoundingBox: 0 0 612 792
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+: N 1881 175 1325 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1881 287 M (Table Definition Report)[71 65 71 33 65 33 84 65 39 33 71 33 39 33 71 71 33 84 65 71 71 46  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 3887 206 500 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 3887 209 500 112 rc F1S64 Ji 
+3887 299 M (07/04/2006)[56 56 28 56 56 28 56 56 56  0]xS 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 600 400 487 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+600 498 M (Database:)[72 56 33 56 61 56 56 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 544 637 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 450 642 M (Table Owner:)[61 56 61 28 56 28 78 80 61 56 39  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 487 700 600 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 487 798 M (Table Name:)[61 56 61 28 56 28 72 56 89 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 544 2068 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 1219 642 M (dbo)[61 61  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 694 2494 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1219 806 M (alumnos)[65 33 71 104 71 71  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 400 1675 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+1219 498 M (unitec)[61 61 28 33 56  0]xS 
+1 Lj 1 Lc 19 Lw : 276 885 4125 23 rc N 287 896 M 4749 896 I K 
+; F1S53 Ji 
+1237 1093 M (48)[46  0]xS 
+F0S75 Ji 
+2437 1105 M (curso_iead)[65 71 46 65 71 65 33 65 65  0]xS 
+F0S53 Ji 
+424 1094 M (Column Sequence:)[60 51 23 51 74 51 23 55 46 51 51 46 51 46 46  0]xS 
+424 1224 M (Comment:)[60 51 74 74 46 51 28  0]xS 
+1812 1094 M (Column Name:)[60 51 23 51 74 51 23 60 46 74 46  0]xS 
+F1S53 Ji 
+1056 1477 M (char)[42 46 46  0]xS 
+F0S53 Ji 
+424 1478 M (Datatype:)[60 46 28 46 28 45 51 46  0]xS 
+424 1621 M (Default:)[60 46 28 46 51 23 28  0]xS 
+F1S53 Ji 
+1049 1620 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1765 M (Format Mask:)[51 51 32 74 46 28 23 71 46 46 46  0]xS 
+F1S53 Ji 
+1049 1764 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 1908 M (Edit Style:)[55 51 23 28 23 55 28 45 23 46  0]xS 
+F1S53 Ji 
+1049 1907 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2043 M (Validation:)[55 46 23 23 51 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2051 M (\(None\))[28 60 46 46 46  0]xS 
+F0S53 Ji 
+424 2168 M (Header:)[60 46 46 51 46 32  0]xS 
+424 2294 M (Label:)[51 46 51 46 23  0]xS 
+430 2418 M (Initial Value:)[23 51 23 28 23 46 23 23 55 46 23 51 46  0]xS 
+424 2552 M (Justification:)[46 51 46 28 23 28 23 46 46 28 23 51 51  0]xS 
+F1S53 Ji 
+1049 2551 M (0)S 
+2201 2551 M (0.00)[46 23 46  0]xS 
+2387 2551 M (in.)[18 46  0]xS 
+3082 2551 M (0.00)[46 23 46  0]xS 
+3280 2551 M (in.)[18 46  0]xS 
+3315 1477 M (1)S 
+F0S53 Ji 
+2737 2552 M (Width:)[79 23 51 28 51  0]xS 
+1812 2552 M (Height:)[60 46 23 51 51 28  0]xS 
+2737 1478 M (Precision:)[55 32 46 46 23 46 23 51 51  0]xS 
+F1S53 Ji 
+2122 1477 M (Nulls Allowed)[60 46 18 18 42 23 55 18 18 46 59 46  0]xS 
+F0S53 Ji 
+1812 1478 M (Null:)[60 51 23 23  0]xS 
+F0S64 Ji 
+425 2870 M (Primary Key Name:)[67 39 28 89 56 39 53 28 72 56 53 28 72 56 89 56  0]xS 
+F0S75 Ji 
+1381 2871 M (PK_ALUMNOS)[78 84 65 81 71 84 99 84 91  0]xS 
+: 289 2654 4100 23 rc N 300 2665 M 4762 2665 I K 
+; F0S64 Ji 
+425 3063 M (Primary Key Columns:)[67 39 28 89 56 39 53 28 72 56 53 28 72 61 28 61 89 61 56  0]xS 
+F1S53 Ji 
+687 3221 M (cuenta)[42 46 46 46 23  0]xS 
+: 289 4518 4088 23 rc N 300 4529 M 4762 4529 I K 
+; F0S64 Ji 
+456 4902 M (Attributes:)[69 33 33 39 28 61 61 33 56 56  0]xS 
+368 5096 M (Index Columns:)[28 61 61 56 56 28 72 61 28 61 89 61 56  0]xS 
+F1S64 Ji 
+2263 4903 M (Ascending)[67 50 50 56 56 56 22 56  0]xS 
+F0S64 Ji 
+362 4708 M (Index Name:)[28 61 61 56 56 28 72 56 89 56  0]xS 
+F1S64 Ji 
+1233 4897 M (Unique )[72 56 22 55 56 56  0]xS 
+F0S75 Ji 
+1025 4729 M (PK_ALUMNOS)[78 84 65 81 71 84 99 84 91  0]xS 
+F1S53 Ji 
+694 5222 M (cuenta)[42 46 46 46 23  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 200 694 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F1S64 Ji 
+450 293 M (Page 17 of 22)[67 56 55 56 28 56 56 28 56 29 28 56  0]xS 
+LH
+(%%[Page: 17]%%) = 
+%%PageTrailer
+
+%%Page: 18 18
+%%PageBoundingBox: 0 0 612 792
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+: N 1881 175 1325 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1881 287 M (Table Definition Report)[71 65 71 33 65 33 84 65 39 33 71 33 39 33 71 71 33 84 65 71 71 46  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 3887 206 500 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 3887 209 500 112 rc F1S64 Ji 
+3887 299 M (07/04/2006)[56 56 28 56 56 28 56 56 56  0]xS 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 600 400 487 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+600 498 M (Database:)[72 56 33 56 61 56 56 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 544 637 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 450 642 M (Table Owner:)[61 56 61 28 56 28 78 80 61 56 39  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 487 700 600 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 487 798 M (Table Name:)[61 56 61 28 56 28 72 56 89 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 544 2068 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 1219 642 M (dbo)[61 61  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 694 2494 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1219 806 M (alumnos)[65 33 71 104 71 71  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 400 1675 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+1219 498 M (unitec)[61 61 28 33 56  0]xS 
+1 Lj 1 Lc 19 Lw : 289 916 4088 23 rc N 300 927 M 4762 927 I K 
+; 456 1300 M (Attributes:)[69 33 33 39 28 61 61 33 56 56  0]xS 
+368 1494 M (Index Columns:)[28 61 61 56 56 28 72 61 28 61 89 61 56  0]xS 
+F1S64 Ji 
+2263 1301 M (Ascending)[67 50 50 56 56 56 22 56  0]xS 
+F0S64 Ji 
+362 1106 M (Index Name:)[28 61 61 56 56 28 72 56 89 56  0]xS 
+F1S64 Ji 
+1233 1295 M (Unique )[72 56 22 55 56 56  0]xS 
+F0S75 Ji 
+1025 1127 M (pk_alumnos)[71 65 65 65 33 71 104 71 71  0]xS 
+F1S53 Ji 
+694 1620 M (cuenta)[42 46 46 46 23  0]xS 
+: 289 2841 4088 23 rc N 300 2852 M 4762 2852 I K 
+; F0S64 Ji 
+456 3225 M (Attributes:)[69 33 33 39 28 61 61 33 56 56  0]xS 
+368 3419 M (Index Columns:)[28 61 61 56 56 28 72 61 28 61 89 61 56  0]xS 
+F1S64 Ji 
+2263 3226 M (Ascending)[67 50 50 56 56 56 22 56  0]xS 
+F0S64 Ji 
+362 3031 M (Index Name:)[28 61 61 56 56 28 72 56 89 56  0]xS 
+F1S64 Ji 
+1197 3220 M (Duplicate)[72 56 56 22 22 50 56 28  0]xS 
+F0S75 Ji 
+1025 3052 M (idx_alumnos_carrera)[33 71 65 65 65 33 71 104 71 71 65 65 65 65 46 46 65 46  0]xS 
+F1S53 Ji 
+694 3545 M (carrera)[42 46 28 28 46 28  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 200 694 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F1S64 Ji 
+450 293 M (Page 18 of 22)[67 56 55 56 28 56 56 28 56 29 28 56  0]xS 
+LH
+(%%[Page: 18]%%) = 
+%%PageTrailer
+
+%%Page: 19 19
+%%PageBoundingBox: 0 0 612 792
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+: N 1881 175 1325 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1881 287 M (Table Definition Report)[71 65 71 33 65 33 84 65 39 33 71 33 39 33 71 71 33 84 65 71 71 46  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 3887 206 500 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 3887 209 500 112 rc F1S64 Ji 
+3887 299 M (07/04/2006)[56 56 28 56 56 28 56 56 56  0]xS 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 600 400 487 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+600 498 M (Database:)[72 56 33 56 61 56 56 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 544 637 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 450 642 M (Table Owner:)[61 56 61 28 56 28 78 80 61 56 39  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 487 700 600 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 487 798 M (Table Name:)[61 56 61 28 56 28 72 56 89 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 544 2068 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 1219 642 M (dbo)[61 61  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 694 2494 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1219 806 M (alumnos)[65 33 71 104 71 71  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 400 1675 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+1219 498 M (unitec)[61 61 28 33 56  0]xS 
+1 Lj 1 Lc 19 Lw : 289 916 4088 23 rc N 300 927 M 4762 927 I K 
+; 456 1300 M (Attributes:)[69 33 33 39 28 61 61 33 56 56  0]xS 
+368 1494 M (Index Columns:)[28 61 61 56 56 28 72 61 28 61 89 61 56  0]xS 
+F1S64 Ji 
+2263 1301 M (Ascending)[67 50 50 56 56 56 22 56  0]xS 
+F0S64 Ji 
+362 1106 M (Index Name:)[28 61 61 56 56 28 72 56 89 56  0]xS 
+F1S64 Ji 
+1197 1295 M (Duplicate)[72 56 56 22 22 50 56 28  0]xS 
+F0S75 Ji 
+1025 1127 M (idx_alumnos_carrera_activo)[33 71 65 65 65 33 71 104 71 71 65 65 65 65 46 46 65 46 65 65 65 65 39 33 64  0]xS 
+F1S53 Ji 
+694 1620 M (carrera)[42 46 28 28 46 28  0]xS 
+694 1744 M (activo)[46 42 23 18 41  0]xS 
+: 289 2841 4088 23 rc N 300 2852 M 4762 2852 I K 
+; F0S64 Ji 
+456 3225 M (Attributes:)[69 33 33 39 28 61 61 33 56 56  0]xS 
+368 3419 M (Index Columns:)[28 61 61 56 56 28 72 61 28 61 89 61 56  0]xS 
+F1S64 Ji 
+2263 3226 M (Ascending)[67 50 50 56 56 56 22 56  0]xS 
+F0S64 Ji 
+362 3031 M (Index Name:)[28 61 61 56 56 28 72 56 89 56  0]xS 
+F1S64 Ji 
+1197 3220 M (Duplicate)[72 56 56 22 22 50 56 28  0]xS 
+F0S75 Ji 
+1025 3052 M (idx_activo)[33 71 65 65 65 65 39 33 64  0]xS 
+F1S53 Ji 
+694 3545 M (activo)[46 42 23 18 41  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 200 694 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F1S64 Ji 
+450 293 M (Page 19 of 22)[67 56 55 56 28 56 56 28 56 29 28 56  0]xS 
+LH
+(%%[Page: 19]%%) = 
+%%PageTrailer
+
+%%Page: 20 20
+%%PageBoundingBox: 0 0 612 792
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+: N 1881 175 1325 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1881 287 M (Table Definition Report)[71 65 71 33 65 33 84 65 39 33 71 33 39 33 71 71 33 84 65 71 71 46  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 3887 206 500 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 3887 209 500 112 rc F1S64 Ji 
+3887 299 M (07/04/2006)[56 56 28 56 56 28 56 56 56  0]xS 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 600 400 487 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+600 498 M (Database:)[72 56 33 56 61 56 56 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 544 637 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 450 642 M (Table Owner:)[61 56 61 28 56 28 78 80 61 56 39  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 487 700 600 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 487 798 M (Table Name:)[61 56 61 28 56 28 72 56 89 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 544 2068 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 1219 642 M (dbo)[61 61  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 694 2494 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1219 806 M (alumnos)[65 33 71 104 71 71  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 400 1675 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+1219 498 M (unitec)[61 61 28 33 56  0]xS 
+1 Lj 1 Lc 19 Lw : 289 916 4088 23 rc N 300 927 M 4762 927 I K 
+; 456 1300 M (Attributes:)[69 33 33 39 28 61 61 33 56 56  0]xS 
+368 1494 M (Index Columns:)[28 61 61 56 56 28 72 61 28 61 89 61 56  0]xS 
+F1S64 Ji 
+2263 1301 M (Ascending)[67 50 50 56 56 56 22 56  0]xS 
+F0S64 Ji 
+362 1106 M (Index Name:)[28 61 61 56 56 28 72 56 89 56  0]xS 
+F1S64 Ji 
+1197 1295 M (Duplicate)[72 56 56 22 22 50 56 28  0]xS 
+F0S75 Ji 
+1025 1127 M (idx_alumnos_camp_carr_activo)[33 71 65 65 65 33 71 104 71 71 65 65 65 65 104 71 65 65 65 46 46 65 65 65 39 33 64  0]xS 
+F1S53 Ji 
+694 1620 M (campus)[42 46 71 46 46  0]xS 
+694 1744 M (carrera)[42 46 28 28 46 28  0]xS 
+694 1868 M (activo)[46 42 23 18 41  0]xS 
+: 289 2791 4075 23 rc N 300 2802 M 4762 2802 I K 
+; F0S64 Ji 
+537 2969 M (Foreign Key Name:)[61 61 39 56 28 61 61 28 72 56 53 28 72 56 89 56  0]xS 
+1525 2970 M (FK_ALUMNOS_REFERENCE_CIUDAD)[61 72 56 69 61 72 83 72 78 67 56 72 67 61 67 72 67 72 72 67 56 72 28 72 72 69  0]xS 
+F1S53 Ji 
+856 3452 M (codigo_ciudad)[42 46 46 18 46 46 46 42 18 46 46 46  0]xS 
+F0S64 Ji 
+575 3119 M (Referenced Table:)[72 56 33 56 39 56 61 56 56 61 28 61 56 61 28 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1525 3027 2168 112 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 1525 3027 534 112 rc 1525 3119 M (dbo.ciudad)[61 61 61 28 56 28 61 61 56  0]xS 
+; 375 3281 M (Foreign Key Columns:)[61 61 39 56 28 61 61 28 72 56 53 28 72 61 28 61 89 61 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 200 694 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F1S64 Ji 
+450 293 M (Page 20 of 22)[67 56 55 56 28 56 56 28 56 29 28 56  0]xS 
+LH
+(%%[Page: 20]%%) = 
+%%PageTrailer
+
+%%Page: 21 21
+%%PageBoundingBox: 0 0 612 792
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+: N 1881 175 1325 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1881 287 M (Table Definition Report)[71 65 71 33 65 33 84 65 39 33 71 33 39 33 71 71 33 84 65 71 71 46  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 3887 206 500 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 3887 209 500 112 rc F1S64 Ji 
+3887 299 M (07/04/2006)[56 56 28 56 56 28 56 56 56  0]xS 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 600 400 487 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+600 498 M (Database:)[72 56 33 56 61 56 56 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 544 637 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 450 642 M (Table Owner:)[61 56 61 28 56 28 78 80 61 56 39  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 487 700 600 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 487 798 M (Table Name:)[61 56 61 28 56 28 72 56 89 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 544 2068 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 1219 642 M (dbo)[61 61  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 694 2494 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1219 806 M (alumnos)[65 33 71 104 71 71  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 400 1675 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+1219 498 M (unitec)[61 61 28 33 56  0]xS 
+1 Lj 1 Lc 19 Lw : 289 897 4075 23 rc N 300 908 M 4762 908 I K 
+; 537 1075 M (Foreign Key Name:)[61 61 39 56 28 61 61 28 72 56 53 28 72 56 89 56  0]xS 
+1525 1076 M (FK_ALUMNOS_REFERENCE_DEPARTAM)[61 72 56 69 61 72 83 72 78 67 56 72 67 61 67 72 67 72 72 67 56 72 67 67 69 72 61 69  0]xS 
+F1S53 Ji 
+856 1558 M (codigo_depto)[42 46 46 18 46 46 46 46 46 46 23  0]xS 
+F0S64 Ji 
+575 1225 M (Referenced Table:)[72 56 33 56 39 56 61 56 56 61 28 61 56 61 28 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1525 1133 2168 112 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 1525 1133 873 112 rc 1525 1225 M (dbo.departamento)[61 61 61 28 61 56 61 56 39 33 56 89 56 61 33  0]xS 
+; 375 1387 M (Foreign Key Columns:)[61 61 39 56 28 61 61 28 72 56 53 28 72 61 28 61 89 61 56  0]xS 
+: 289 2772 4075 23 rc N 300 2783 M 4762 2783 I K 
+; 537 2950 M (Foreign Key Name:)[61 61 39 56 28 61 61 28 72 56 53 28 72 56 89 56  0]xS 
+1525 2951 M (FK_ALUMNOS_REFERENCE_MUNICIPI)[61 72 56 69 61 72 83 72 78 67 56 72 67 61 67 72 67 72 72 67 56 83 72 72 28 72 28 67  0]xS 
+F1S53 Ji 
+856 3433 M (codigo_municipio)[42 46 46 18 46 46 46 71 46 46 18 42 18 46 18  0]xS 
+F0S64 Ji 
+575 3100 M (Referenced Table:)[72 56 33 56 39 56 61 56 56 61 28 61 56 61 28 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1525 3008 2168 112 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 1525 3008 684 112 rc 1525 3100 M (dbo.municipio)[61 61 61 28 89 61 61 28 56 28 61 28  0]xS 
+; 375 3262 M (Foreign Key Columns:)[61 61 39 56 28 61 61 28 72 56 53 28 72 61 28 61 89 61 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 200 694 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F1S64 Ji 
+450 293 M (Page 21 of 22)[67 56 55 56 28 56 56 28 56 29 28 56  0]xS 
+LH
+(%%[Page: 21]%%) = 
+%%PageTrailer
+
+%%Page: 22 22
+%%PageBoundingBox: 0 0 612 792
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+: N 1881 175 1325 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1881 287 M (Table Definition Report)[71 65 71 33 65 33 84 65 39 33 71 33 39 33 71 71 33 84 65 71 71 46  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 3887 206 500 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 3887 209 500 112 rc F1S64 Ji 
+3887 299 M (07/04/2006)[56 56 28 56 56 28 56 56 56  0]xS 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 600 400 487 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+600 498 M (Database:)[72 56 33 56 61 56 56 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 544 637 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 450 642 M (Table Owner:)[61 56 61 28 56 28 78 80 61 56 39  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 487 700 600 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 487 798 M (Table Name:)[61 56 61 28 56 28 72 56 89 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 544 2068 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 1219 642 M (dbo)[61 61  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 694 2494 143 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S75 Ji 
+1219 806 M (alumnos)[65 33 71 104 71 71  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1219 400 1675 125 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F0S64 Ji 
+1219 498 M (unitec)[61 61 28 33 56  0]xS 
+1 Lj 1 Lc 19 Lw : 289 897 4075 23 rc N 300 908 M 4762 908 I K 
+; 537 1075 M (Foreign Key Name:)[61 61 39 56 28 61 61 28 72 56 53 28 72 56 89 56  0]xS 
+1525 1076 M (FK_ALUMNOS_REFERENCE_PAIS)[61 72 56 69 61 72 83 72 78 67 56 72 67 61 67 72 67 72 72 67 56 67 69 28  0]xS 
+F1S53 Ji 
+856 1558 M (codigo_pais)[42 46 46 18 46 46 46 46 46 18  0]xS 
+F0S64 Ji 
+575 1225 M (Referenced Table:)[72 56 33 56 39 56 61 56 56 61 28 61 56 61 28 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 1525 1133 2168 112 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol : 1525 1133 412 112 rc 1525 1225 M (dbo.pais)[61 61 61 28 61 56 28  0]xS 
+; 375 1387 M (Foreign Key Columns:)[61 61 39 56 28 61 61 28 72 56 53 28 72 61 28 61 89 61 56  0]xS 
+/DeviceRGB dup setcolorspace /colspABC exch def
+: N 450 200 694 118 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol F1S64 Ji 
+450 293 M (Page 22 of 22)[67 56 55 56 28 56 56 28 56 29 28 56  0]xS 
+LH
+(%%[Page: 22]%%) = 
+%%PageTrailer
+
+%%Trailer
+%%BoundingBox: 0 0 612 792
+%%DocumentNeededResources: 
+%%+ font Helvetica-Bold
+%%+ font Helvetica
+%%DocumentSuppliedResources: 
+%%+ procset Pscript_WinNT_ErrorHandler 5.0 0
+%%+ procset Pscript_FatalError 5.0 0
+%%+ procset Pscript_Win_Basic 5.0 0
+%%+ procset Pscript_Win_Utils_L2 5.0 0
+%%+ procset Pscript_Win_GdiObject 5.0 0
+%%+ procset Pscript_Win_GdiObject_L3 5.0 0
+%%+ procset Pscript_Text 5.0 0
+%%+ procset Pscript_Encoding256 5.0 0
+Pscript_WinNT_Incr dup /terminate get exec
+ehsave restore
+%%Pages: 22
+(%%[LastPage]%%) = 
+%%EOF
+

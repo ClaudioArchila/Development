@@ -1,0 +1,19 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+ 0 "Becas\\becas.pbt";
+@end;
+@begin Targets
+ 0 "Categorizacion pago docentes\\categorizacion_pago_docente.pbt";
+ 10 "VAE\\vae.pbt";
+ 1 "Coordinadores\\coordinadores.pbt";
+ 2 "Programas Especiales\\especiales.pbt";
+ 3 "generacion\\generacion.pbt";
+ 4 "Matricula\\matricula.pbt";
+ 5 "Operaciones Financieras\\operacionesfinancieras.pbt";
+ 6 "PlanArbitrios\\planarbitrios.pbt";
+ 7 "Recuperacion\\recuperacion.pbt";
+ 8 "Seguridad\\seguridad.pbt";
+ 9 "Registro\\utc.pbt";
+@end;
+DefaultTarget "Programas Especiales\\especiales.pbt";
+DefaultRemoteTarget "Programas Especiales\\especiales.pbt";

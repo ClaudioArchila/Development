@@ -1,0 +1,50 @@
+
+Open Client Message:
+Message number: LAYER = (5) ORIGIN = (3) SEVERITY = (5) NUMBER = (131)
+Message String: ct_init(): network packet layer: internal net library error: Attempt to load protocol driver failed
+
+Open Client Message:
+Message number: LAYER = (5) ORIGIN = (3) SEVERITY = (5) NUMBER = (131)
+Message String: ct_init(): network packet layer: internal net library error: Attempt to load protocol driver failed
+
+Open Client Message:
+Message number: LAYER = (5) ORIGIN = (3) SEVERITY = (5) NUMBER = (131)
+Message String: ct_init(): network packet layer: internal net library error: Attempt to load protocol driver failed
+
+Open Client Message:
+Message number: LAYER = (5) ORIGIN = (3) SEVERITY = (5) NUMBER = (131)
+Message String: ct_init(): network packet layer: internal net library error: Attempt to load protocol driver failed
+
+Open Client Message:
+Message number: LAYER = (5) ORIGIN = (3) SEVERITY = (5) NUMBER = (131)
+Message String: ct_init(): network packet layer: internal net library error: Attempt to load protocol driver failed
+
+Open Client Message:
+Message number: LAYER = (5) ORIGIN = (3) SEVERITY = (5) NUMBER = (131)
+Message String: ct_init(): network packet layer: internal net library error: Attempt to load protocol driver failed
+
+Open Client Message:
+Message number: LAYER = (5) ORIGIN = (3) SEVERITY = (5) NUMBER = (131)
+Message String: ct_init(): network packet layer: internal net library error: Attempt to load protocol driver failed
+
+Open Client Message:
+Message number: LAYER = (5) ORIGIN = (3) SEVERITY = (5) NUMBER = (131)
+Message String: ct_init(): network packet layer: internal net library error: Attempt to load protocol driver failed
+
+
+The context allocation routine failed when it tried to load localization files!!
+One or more following problems may caused the failure
+
+Your sybase home directory is C:\sybase2. Check the environment variable SYBASE if it is not the one you want!
+Using default locale name: "default"
+Cannot access C:\sybase2\locales\message\english\common.loc file
+Cannot access C:\sybase2\locales\message\english\cslib.loc file
+
+
+The context allocation routine failed when it tried to load localization files!!
+One or more following problems may caused the failure
+
+Your sybase home directory is C:\sybase2. Check the environment variable SYBASE if it is not the one you want!
+Using default locale name: "default"
+Cannot access C:\sybase2\locales\message\english\common.loc file
+Cannot access C:\sybase2\locales\message\english\cslib.loc file

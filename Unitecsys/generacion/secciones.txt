@@ -1,0 +1,52 @@
+ ---------- Search: Searching Target utc for 'UPDATE secciones' 
+ ---------- 48 Matches Found On "UPDATE secciones":
+administracion_secciones.pbl(w_actualizar_matriculados)open.0043:    UPDATE secciones  
+administracion_secciones.pbl(w_cambiar_correlativo_secciones).cb_1.clicked.0008:    UPDATE secciones_correlativo  
+administracion_secciones.pbl(w_secciones)ue_dividir.0179:    UPDATE secciones  
+administracion_secciones.pbl(w_secciones)ue_dividir.0231:       UPDATE secciones  
+administracion_secciones.pbl(w_secciones)ue_resecuenciar.0072:    update secciones_carrera
+administracion_secciones.pbl(w_secciones)ue_resecuenciar.0079:    update secciones_asistentes
+administracion_secciones.pbl(w_secciones)ue_resecuenciar.0149:    update secciones_carrera
+administracion_secciones.pbl(w_secciones)ue_resecuenciar.0156:    update secciones_asistentes
+administracion_secciones.pbl(w_secciones)ue_resecuenciar.0178:  UPDATE secciones_correlativo
+administracion_secciones.pbl(w_secciones)ue_cancelar.0167:  //    UPDATE secciones  
+administracion_secciones.pbl(w_secciones).cb_aceptar.clicked.0115:     UPDATE secciones
+funciones_globales.pbl(af_cancelar_clase_dependiente)0187:     UPDATE secciones
+matricula.pbl(w_cancelacion_matricula).cb_aceptar.clicked.0058:    UPDATE secciones  
+matricula.pbl(w_cancelaciones).cb_aceptar.clicked.0076:     UPDATE secciones  
+matricula.pbl(w_cierre).cb_aceptar.clicked.0163:        UPDATE secciones  
+matricula.pbl(w_cierre).cb_aceptar.clicked.0226:         UPDATE secciones  
+matricula.pbl(w_cierre).cb_aceptar.clicked.0391:           UPDATE secciones  
+matricula.pbl(w_conflicto_hora).cb_1.clicked.0047:           UPDATE secciones  
+matricula.pbl(w_conflicto_hora).cb_1.clicked.0080:           UPDATE secciones  
+matricula.pbl(w_copiar_alumnos_entre_secciones).cb_1.clicked.0116:   update secciones
+matricula.pbl(w_matricula_informa_copy).wf_matricular.0110:      UPDATE secciones  
+matricula.pbl(w_matricula_informa_copy).cb_cancelar.clicked.0026:     UPDATE secciones  
+matricula.pbl(w_retiros).cb_aceptar.clicked.0082:     UPDATE secciones  
+postgrado.pbl(w_matricula_informa_postgrado).wf_matricular.0103:      UPDATE secciones  
+postgrado.pbl(w_matricula_informa_postgrado).cb_cancelar.clicked.0023:    UPDATE secciones  
+postgrado.pbl(w_matricula_postgrado).cb_aceptar.clicked.0473:     UPDATE secciones  
+registro_nuevo.pbl(w_incorporar_listas).cb_aceptar.clicked.0131:  UPDATE secciones  
+registro_nuevo.pbl(w_modificar_faltas_seccion).cb_aceptar.clicked.0065:   update secciones
+registro_nuevo.pbl(w_notas_finales).wf_cancelar_clase_dependiente.0204:    UPDATE secciones
+registro_nuevo.pbl(w_reasignacion_aulas).pb_aceptar.clicked.0046:  UPDATE secciones  
+registro_nuevo.pbl(w_reasignacion_aulas).pb_aceptar.clicked.0241:     UPDATE secciones  
+registro_nuevo.pbl(w_reasignacion_aulas).pb_aceptar.clicked.0283:      UPDATE secciones  
+registro_nuevo.pbl(w_reasignacion_aulas).pb_aceptar.clicked.0335:     UPDATE secciones  
+registro_nuevo.pbl(w_reasignacion_aulas).pb_aceptar.clicked.0569:  //    UPDATE secciones  
+registro_nuevo.pbl(w_reasignacion_aulas).pb_aceptar.clicked.0611:  //     UPDATE secciones  
+registro_nuevo.pbl(w_reasignacion_aulas).pb_aceptar.clicked.0656:  //    UPDATE secciones  
+registro_nuevo.pbl(w_suficiencia_nivelatorias).cb_2.clicked.0120:      UPDATE secciones  
+registro_nuevo.pbl(w_suficiencia_nivelatorias).cb_2.clicked.0243:        UPDATE secciones  
+registro_nuevo.pbl(w_suficiencia_nivelatorias).cb_2.clicked.0308:          UPDATE secciones  
+registro_nuevo.pbl(w_suficiencia_nivelatorias).cb_2.clicked.0414:             UPDATE secciones  
+tesoreria_matricula.pbl(w_matricula_informa).wf_matricular.0124:      UPDATE secciones  
+tesoreria_matricula.pbl(w_matricula_informa).cb_cancelar.clicked.0026:     UPDATE secciones  
+tesoreria_matricula.pbl(w_matricula_informa).cb_aceptar.clicked.0220:     UPDATE secciones  
+tesoreria_matricula.pbl(w_matricula_informa_vacacional).wf_matricular.0119:      UPDATE secciones  
+tesoreria_matricula.pbl(w_matricula_informa_vacacional).cb_cancelar.clicked.0026:     UPDATE secciones  
+tesoreria_matricula.pbl(w_matricula_informa_vacacional).cb_aceptar.clicked.0202:    UPDATE secciones  
+tesoreria_matricula.pbl(w_matricula_vacacional).cb_aceptar.clicked.1418:     UPDATE secciones  
+tesoreria_matricula.pbl(w_matricula2).cb_aceptar.clicked.1506:     UPDATE secciones  
+ ---------- Done 48 Matches Found On "UPDATE secciones":
+ ---------- Finished Searching Target utc for 'UPDATE secciones' 
